@@ -1,0 +1,32 @@
+.icon-cards {
+	margin-top: -50px;
+
+	&__card {
+		text-align: center;
+		height: 473px;
+		padding: 60px 65px;
+		background: #fff;
+		box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 45px 0px;
+	}
+
+	&__card-icon {
+		margin-bottom: 30px;
+	}
+
+	&__card-title {
+		font-weight: 700;
+		font-size: 21px;
+		line-height: 21px;
+		margin-bottom: 40px;
+	}
+
+	&__card-description {
+		font-size: 18px;
+		margin-bottom: 40px;
+	}
+
+	&__card-link {
+		display: inline-block;
+		font-size: 14px;
+	}
+}

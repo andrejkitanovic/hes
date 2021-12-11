@@ -1,0 +1,25 @@
+.hero {
+	background-color: #f7f7f7;
+	height: 670px;
+	padding-top: 50px;
+
+	&__main {
+		height: 100%;
+	}
+
+	&__header {
+		font-size: 80px;
+		letter-spacing: 1px;
+		font-family: 'Bebas Neue', sans-serif;
+	}
+
+	&__image {
+		text-align: right;
+	}
+
+	&__description {
+		font-size: 24px;
+		color: #414141;
+		margin-bottom: 40px;
+	}
+}
