@@ -1,7 +1,26 @@
 {
 	"sr": [
 		{
-			"link": "index",
+			"link": "/_error",
+			"title": "404",
+			"meta": [
+				{
+					"name": "description",
+					"content": "Stranica nije pronadjena!"
+				}
+			],
+			"modules": [
+				{
+					"type": "hero",
+					"props": {
+						"header": "Stranica nije pronadjena",
+						"description": "Izvinite na neprijatnosti!"
+					}
+				}
+			]
+		},
+		{
+			"link": "/",
 			"title": "Naslovna",
 			"meta": [
 				{
@@ -78,7 +97,7 @@
 			]
 		},
 		{
-			"link": "sta-je-hes",
+			"link": "/sta-je-hes",
 			"title": "Šta je HES",
 			"meta": [
 				{
@@ -109,7 +128,7 @@
 			]
 		},
 		{
-			"link": "hocu-da-kupim",
+			"link": "/hocu-da-kupim",
 			"title": "Hoću da kupim",
 			"meta": [
 				{
@@ -140,7 +159,7 @@
 			]
 		},
 		{
-			"link": "hocu-da-prodam",
+			"link": "/hocu-da-prodam",
 			"title": "Hoću da prodam",
 			"meta": [
 				{
@@ -179,7 +198,7 @@
 			]
 		},
 		{
-			"link": "registracija",
+			"link": "/registracija",
 			"title": "Registracija",
 			"meta": [
 				{
@@ -210,7 +229,7 @@
 			]
 		},
 		{
-			"link": "instrukcije",
+			"link": "/instrukcije",
 			"title": "Instrukcije",
 			"meta": [
 				{
@@ -258,7 +277,7 @@
 			]
 		},
 		{
-			"link": "kontakt",
+			"link": "/kontakt",
 			"title": "Kontakt",
 			"meta": [
 				{
@@ -320,7 +339,7 @@
 			]
 		},
 		{
-			"link": "akcija",
+			"link": "/akcija",
 			"title": "Akcija",
 			"meta": [
 				{

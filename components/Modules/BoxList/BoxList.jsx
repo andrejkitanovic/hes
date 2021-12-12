@@ -9,8 +9,10 @@ export default function BoxList({ title, list, description }) {
 						<div className="col-12">
 							<div className="box-list__title">{title}</div>
 							<div className="box-list__list">
-								{list?.map((item) => (
-									<div className="box-list__item">{parse(item)}</div>
+								{list?.map((item, index) => (
+									<div key={'box-list_' + index} className="box-list__item">
+										{parse(item)}
+									</div>
 								))}
 							</div>
 							<div className="box-list__description">{description}</div>

@@ -9,7 +9,7 @@ export default function IconRow({ cards }) {
 						<div key={`icon-row__row-${index}`} className="col-4">
 							<div className="icon-row__row">
 								<div className="icon-row__row-icon">
-									{card.icon && <Image src={card.icon} width={50} height={50} />}
+									{card.icon && <Image src={card.icon} width={50} height={50} alt="Card Icon"/>}
 								</div>
 								<div className="icon-row__row-title">{card.header}</div>
 								<a href={card.href} className="icon-row__row-link">

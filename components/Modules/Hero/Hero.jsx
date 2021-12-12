@@ -16,7 +16,7 @@ export default function Hero({ header, description, button, image }) {
 					</div>
 					<div className="col-4">
 						<div className="hero__image text-align-right">
-							{image && <Image src={image} width="325" height="619" />}
+							{image && <Image src={image} width="325" height="619" alt="Big Avatar" />}
 						</div>
 					</div>
 				</div>

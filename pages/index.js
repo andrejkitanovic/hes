@@ -1,5 +1,3 @@
-import LayoutBuilder from '../components/LayoutBuilder/LayoutBuilder';
-
-export default function Home() {
-	return <LayoutBuilder link="index" />;
+export default function Home({ modules }) {
+	return modules;
 }

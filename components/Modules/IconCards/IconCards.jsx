@@ -10,7 +10,7 @@ export default function IconCards({ cards }) {
 						<div key={`icon-cards__card-${index}`} className="col-4">
 							<div className="icon-cards__card">
 								<div className="icon-cards__card-icon">
-									{card.icon && <Image src={card.icon} width={80} height={80} />}
+									{card.icon && <Image src={card.icon} width={80} height={80} alt="Card Icon"/>}
 								</div>
 								<div className="icon-cards__card-title">{card.header}</div>
 								<div className="icon-cards__card-description">{card.description}</div>

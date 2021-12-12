@@ -19,7 +19,7 @@ export default function Header({ banner, logo, navigation, active }) {
 						<div className="col-1">
 							<div className="header__logo">
 								<Link href="/" passHref>
-									<a>{logo && <Image src={logo.src} width={logo.width} height={logo.height} />}</a>
+									<a>{logo && <Image src={logo.src} width={logo.width} height={logo.height} alt="HES Logo" />}</a>
 								</Link>
 							</div>
 						</div>
@@ -29,9 +29,7 @@ export default function Header({ banner, logo, navigation, active }) {
 									if (navItem.type === 'link') {
 										return (
 											<Link key={`navitem_${index}`} href={navItem.href}>
-												<a className={`header__link${'/' + active === navItem.href ? ' active' : ''}`}>
-													{navItem.title}
-												</a>
+												<a className={`header__link${active === navItem.href ? ' active' : ''}`}>{navItem.title}</a>
 											</Link>
 										);
 									} else if (navItem.type === 'dropdown-button') {
@@ -46,7 +44,7 @@ export default function Header({ banner, logo, navigation, active }) {
 						</div>
 						<div className="col-1">
 							<div className="header__cart d-flex align-items-center justify-content-end">
-								<CartSVG />
+								<CartSVG width={26} height={26} />
 								<div className="header__cart-count d-flex align-items-center justify-content-center">0</div>
 							</div>
 						</div>
