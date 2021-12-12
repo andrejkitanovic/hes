@@ -1,7 +1,7 @@
 const Cart = () => {
 	return (
 		<svg
-			class="kadence-svg-icon kadence-shopping-bag-svg"
+			className="kadence-svg-icon kadence-shopping-bag-svg"
 			fill="currentColor"
 			version="1.1"
 			xmlns="http://www.w3.org/2000/svg"

@@ -1,0 +1,33 @@
+.rich-text {
+	max-width: 900px;
+	margin: 0 auto;
+
+	p,
+	ul,
+	ol,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		margin-bottom: 30px;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		&.header-indent {
+			color: #a33188;
+			padding-left: 50px;
+		}
+	}
+
+	mark.highlight {
+		background: #e23c8e33;
+		padding: 0 10px;
+	}
+}

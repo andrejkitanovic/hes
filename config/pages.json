@@ -1,0 +1,113 @@
+[
+	{
+		"link": "index",
+		"title": "Naslovna",
+		"meta": [
+			{
+				"name": "description",
+				"content": "Mesto gde se najbrže prodaje i najjeftinije kupuje!"
+			}
+		],
+		"modules": [
+			{
+				"type": "hero",
+				"props": {
+					"header": "PRODAJ. KUPI. PONOVI.",
+					"description": "Mesto gde se najbrže prodaje i najjeftinije kupuje!",
+					"image": "/images/avatar.png"
+				}
+			},
+			{
+				"type": "icon-cards",
+				"props": {
+					"cards": [
+						{
+							"icon": "/svgs/info-icon.svg",
+							"header": "Šta je HES?",
+							"description": "HES je tržište koje formiramo za Vas, svake nedelje sa drugom temom, a u ponudi…",
+							"link": "#"
+						},
+						{
+							"icon": "/svgs/clothes-icon.svg",
+							"header": "Šta mogu da prodam?",
+							"description": "Za sada, preko HES-a možete prodati dečiju odeću i obuću (do 20 EUR) kao i opremu…",
+							"link": "#"
+						},
+						{
+							"icon": "/svgs/question-icon.svg",
+							"header": "Kako HES funkcioniše?",
+							"description": "Od ponedeljka do četvrtka traju prijave za poziciju prodavca, u četvrtak se šalju pripremljeni kolaži…",
+							"link": "#"
+						}
+					]
+				}
+			}
+		]
+	},
+	{
+		"link": "sta-je-hes",
+		"title": "Šta je HES",
+		"meta": [
+			{
+				"name": "description",
+				"content": "Šta je HES?"
+			}
+		],
+		"modules": [
+			{
+				"type": "breadcrumb-title",
+				"props": {
+					"title": "Šta je HES"
+				}
+			},
+			{
+				"type": "rich-text",
+				"children": "<p>U narednim redovima možete pročitati sve od početka našeg poslovanja, naše ideje i iskustva, do osnivanja posredničkefirme koja svim korisnicima omogućava kupovinu uz maksimalnu sigurnost.</p><p>Pre nego što je nastala ideja za HES, osnovali smo, i uspešno poslovali preko našeg profila Baby lux. Svrha togprofila bila je da sve mame koje imaju gomile (ili neki komad) visoko brendirane odeće ili obuće svojih mališana, akoje žele da ih prodaju, to mogu da urade preko nas. Zašto baš visoko brendirana odeća?</p><p class=\"text-align-center\">Da li Vam je neko nekada rekao <mark class=\"highlight\">HVALA?</mark></p><p>Svi znamo koliko su high end brendovi skupi, a u velikom broju slučajeva, oni kojima to poklanjate ne znaju da cene,ili sa druge strane-znaju, pa tu odeću prodaju, i preko Vas zarađuju…</p><p>Sa druge strane, sve mame koje žele da kupe detetu jače brendirane stvari, a ne putuju van Srbije, ili nisu umogućnosti da plate punu cenu nove stvari, ovo je idealno rešenje.</p><p>Baby Lux nastao je u novembru 2020. godine, i do februara mnogo puta dobili smo upit o prodaji komercijalnih brendova,međutim, mi nismo želeli da rušimo koncept profila, pa smo takve ponude odbijali.</p><p>U martu 2021. godine, rešili smo da testiramo ideju o HES-u tako što smo napravili Viber grupu, i u njoj okupili svezainteresovane kupce i prodavce. Ideja je bila da na tom jednom mestu, na samo jedan sat stvorimo tržište sa traženomrobom, kako bi kupci mogli da imaju sve informacije o ponuđenim artiklima na jednom mestu i izaberu šta im se dopada.</p><p>Da bi učestvovali kao ponuđač, bilo je potrebno prethodno se prijaviti i uplatiti kotizaciju za učešće.</p><p>Na osnovu feedback-a učesnika našeg prvog HES-a, možemo reci da su kupci i te kako bili zadovoljni ponudom, a prodavciprodajom.</p><h2 class=\"header-indent\">ZAŠTO SE OVAJ NAČIN PRODAJE RAZLIKUJE OD SVIH DRUGIH NA OVOJ I SLIČNIM PLATFORMAMA?</h2><p>HES je drugačiji zato što se na cenu ponuđenih artikla ne dodaje nikakav drugi iznos, procenat, provizija. Prodavcisami formiraju cenu (DO 20 EUR), i sav prihod od prodaje ide njima, a kupci ne plaćaju veću cenu zato što se mi, kaoorganizatori HES-a, ne ugradjujemo u cenu.</p><h2 class=\"header-indent\">ŠTA SVE MOGU DA PRODAM?</h2><p>Za sada, preko HES-a možete prodati dečiju odeću i obuću (do 20 EUR) kao i opremu (do 200 EUR). Pored dečije, možeteprodati i žensku odeću, obuću i aksesoare.</p><p>Kao i svaka nova ideja, i ova zahteva vreme za testiranje. Osluškujemo želje i potrebe obe strane (kupca i prodavca) iu skladu sa time smišljamo ideje, kako da spojimo lepo i korisno.</p><h2 class=\"header-indent\">ŠTA JE HES?</h2><p>Hot Express Sale (HES) / „brza vruća rasprodaja“</p><p>HES je tržište koje formiramo za Vas, svake nedelje sa drugom temom, a u ponudi učestvuju prodavci iz cele zemlje. Zapoziciju prodavca može se prijaviti BAŠ svako.</p><p>Na našem profilu možete videti raznoliku ponudu novih i polovnih artikla, a sve što poručite stiže Vam u jednompaketu.</p><h2 class=\"header-indent\">MAKSIMALNA ZAŠTITA KUPCA</h2><p>Svi znamo koliko je online kupovina rizična, posebno kada se kupuje iz nepoznatog izvora, odnosno, od prodavca koje jefizičko lice, pa nije moguće podneti bilo kakvu reklamaciju ukoliko je poručeni predmet neodgovarajućeg kvaliteta,odnosno, mimo onoga prikazanog na slici.</p><p>Zato smo mi pravi posrednici u prodaji, i sve što poručite, prodavci će poslati najpre nama, a onda ćemo mi, nakon štose uverimo da ćete dobiti ono što ste i poručili, Vama direktno poslati Vašu porudžbinu.</p><p>Želeli smo da omogućimo kupcima da na jednom mestu nađu ponudu artikla vrednosti do 20EUR!</p><p>Zašto baš do te cifre?</p><p>Pomenuli smo ranije da je Baby Lux profil namenjen high end brendovima, pa je na njemu ponuda uglavnom od 20 EUR, panaviše, a naši saradnici su više puta izrazili želju za prodaju jeftinije odeće bez naše provizije.</p><p>HES se organizuje svake nedelje sa drugom temom, pa je samim tim i ponuda svake nedelje drugačija.</p><h2 class=\"header-indent\">ZAŠTO DA NAM VERUJETE?</h2><p>Kao posrednici u prodaji dečije odeće radimo osam meseci, i za to vreme ostvarili smo uspešnu saradnju sa vise od 400različitih prodavca, a prodali preko 900 artikla.</p><p>Baby Lux – 7 meseca rada – 300 prodavca – 400 prodatih artikla</p><p>HES -1,5 meseca rada – 100 prodavca – 500 prodatih artikla</p><h2 class=\"header-indent\">DA LI STE PRILIKOKM KUPOVINE SKEPTIČNI ZBOG PLAĆANJA UNAPRED?</h2><p>Kroz naše dosadašnje iskustvo, veliki broj kupca samoinicijativno je izrazilo želju da izvrši uplatu prodavcu presamog slanja iz raznih razloga. Najčešće je to zbog niže poštarine.</p><p>Sledeće što želimo da kažemo jeste da, čak iako poručite nešto što ćete platiti prilikom preuzimanja, ne možeteotvoriti paket pre nego što platite poštaru, pa onda skoro da dolazimo na isto. Jedino što menja stvar jeste činjenicada ćete platiti veću poštarinu ukoliko paket ima otkup.</p><p>HES je registrovan u Agenciji za Privredne Registre, i kao takav, poseduje svoj Poreski indetifikacioni broj, čimedokazuje ozbiljnost u poslu, pa se tako ne morate brinuti ni za šta. Mi za Vas utvrdjujemo da li ste dobili ono štoste poručili u stanju sa slike, a tek nakon što Vam damo potvrdu, Vi vršiste uplatu.</p><p>Nakon toga ostaje samo da platite oko 200 dinara poštarinu, koja je ujedno i najniža moguća.</p>"
+			}
+		]
+	},
+	{
+		"link": "hocu-da-kupim",
+		"title": "Hoću da kupim",
+		"meta": [
+			{
+				"name": "description",
+				"content": "Hoću da kupim"
+			}
+		],
+		"modules": [
+			{
+				"type": "breadcrumb-title",
+				"props": {
+					"title": "Hoću da kupim"
+				}
+			}
+		]
+	},
+	{
+		"link": "instrukcije",
+		"title": "Instrukcije",
+		"meta": [
+			{
+				"name": "description",
+				"content": "Instrukcije sajta HES!"
+			}
+		],
+		"modules": [
+			{
+				"type": "breadcrumb-title",
+				"props": {
+					"title": "Instrukcije"
+				}
+			},
+			{
+				"type": "rich-text",
+				"children": "<p>30 artikla je maksimalan broj po prodavcu, nije uslov da imate 30 artikla kako bi učestvovali. Jedan kolaž može imatijedan artikal (npr. pantalone), a može imati i pantalone i majicu (koje mi u prodaji označavamo kao “komplet”) i obakomada moraju ići za jednu cenu. Iako su u drugom slučaju dva artikla na kolažu, mi to brojimo kao jedan, jer je svena jednom kolažu. Tako da svaki prodavac može poslati 30 kolaža (a ukupan broj artikla može biti i npr 36).</p><p>Nije moguće na jednom kolažu imati npr. majicu a da piše dostupna S i M veličina. U tom slučaju biće neophodno dapravite zasebne kolaže za oba artikla osim ako ih ne prodajete u kompletu (koji smo prethodno pomenuli).</p><p>Kako bi sajt izgledao jednolično, a ponuda na njemu lepa za oko našim kupcima (što će rezultirati većoj prodaji),neophodno je da svi kolaži koji se na njemu nalaze budu pravljeni na isti način. Članica tima koja je zadužena zaprijem kolaža prekontrolisaće sve kolaže koji pristignu i one koji ne budu pravljeni po ovim instrukcijama bićevraćeni, te je važno da ih u startu pravite kako treba da ne bi dodatno gubili vreme.</p><p>Ukoliko nemate vremena da sami pravite kolaže ili se ne snalazite najbolje u tome,&nbsp; uvodimo mogućnost da kolaženapravimo mi za Vas, a ta usluga se naplaćuje:</p><ul><li>5 EUR za 15 kolaža</li><li>10 EUR za 45 kolaža</li></ul><p>Stvari koje želite da prodate ne moraju biti brendirane.</p><p>Svaki kolaž mora da ima:</p><ol><li>brend (ako je stvar brendirana)</li><li>model (haljina, majica, košulja…)*</li><li>veličinu</li><li>cenu (izraženu u EUR)</li><li>stanje**</li><li>HES broj</li></ol><p>*neretko na slici majica izgleda kao haljina i obrnuto, a budući da preko slike ne možemo proceniti o kom modelu seradi, neophodno je da prodavac sam naglasi</p><p>**stanje artikla opisuje se isključivo u skladu sa našom legendom. Ukoliko je stvar “očuvana” nemojte dodavati prefiks(super/odlično očuvana itd). Dovoljno je da napišete samo tu reč, a kupci će u skladu sa legendom tačno znati kakvostanje artikla mogu da očekuju.</p><p>U online prodaji slika je najvažnija, zato savetujemo svim prodavcima da se stave u poziciju kupca i kada fotografišuartikal zapitaju se da li bi ga oni kupili da ga vide u takvom stanju na slici. Zamislite da objavimo kolaž na kojempiše brend, veličina i cena, a nema slike. Kakva god da je cena niko ne bi poručio zato što ne vidi šta kupuje. Istotako, ako slikate jednu sliku mutne kamere, a artikal je izgužvan i slika mračna, niko se neće odlučiti na kupovinu.Zapamtite, ako što Vi znate kako artikal izgleda uživo i kako stoji, kupac sa druge strane ekrana to nikako ne možeznati, zato se potrudite da mu slikom bliže dočarate stvarno stanje i izgled. Garantujemo da će prodaja biti uspešna.</p><p>Da sumiramo: artikal slikate čist i ispeglan, na beloj pozadini i na dnevnom svetlu ukoliko Vam vreme dozvoli.</p><p>Aplikaciju za pravljenje kolaža možete izabrati sami (instagram Story NIJE opcija), a možete koristiti i Photo Grid,mi je koristimo, besplatna je. U našim highlights-ima na profilu možete pronaći upustvo kako da napravite kolaž tačnopo našim instrukcijama. Kada je u pitanju tehnička strana kolaža, on mora biti u formatu kocke (nikako pravougaonik);background (tj. pozadina) kolaža mora biti bela; slova kojima pišete crna.</p><p>Svaki kolaž treba imati minimalno 2 slike (prednja i zadnja strana), a maksimalno 3 slike artikla.</p><p><strong>BONUS SAVET</strong></p><p>Kada kupovina na HES-u počne, već u prvim minutima broj prodatih artikla prelazi 100, budite svesni da kupci nemajuvremena da postavljaju dodatne upite (koja je dužina haljine, koji je materijal, koja je dužina gazišta itd.). UkolikoVam je stalo da Vaše učešće bude uspešno, potrudite se i pomozite kupcima da u što kraćem roku mogu da donesu odlukujer će na Vašem kolažu biti odgovoreno unapred na sva njihova pitanja.<br /><em>npr. Neko nosi S, ali ima veće grudi pa mu je bitna ta mera, neko je alergičan na veštačke materijale pa recimo nebi kupovao sintetiku, neko je visok pa se boji da haljina neće biti prekratka, neko nosi 38 ali dužina gazištavarira od brenda pa je to presudan detalj za kupovinu… razmislite o tome kada pravite kolaže.</em></p><p>U nastavku teksta pronaći ćete posebne instrukcije za svaki HES.</p><p>Nedeljna prodaja (za učešće se uplaćuje kotizacija po <a href=\"https://hes.rs/hocu-da-prodam/#price\">cenovniku</a>,prodaja traje 5 dana):</p><ul><li><a href=\"#zenski-hes\">– ženski HES do 20 EUR</a></li><li><a href=\"#deciji-hes\">– dečiji HES do 20 EUR</a></li></ul><p>Mesečna prodaja (za učešće se NE uplaćuje kotizacija, već ostaje provizija po prodatom artiklu, prodaja traje mesecdana):</p><ul><li><a href=\"#zenski-do-50\">– ženski HES do 50 EUR</a></li><li><a href=\"#zenski-do-100\">– ženski HES do 100 EUR</a></li><li><a href=\"#zenski-do-200\">– ženski HES do 200 EUR</a></li><li><a href=\"#zenski-do-300\">– ženski HES do 300 EUR</a></li></ul><p><a href=\"#deciji-do-200\">– dečija oprema do 200 EUR</a></p><p id=\"zenski-hes\"><strong>Ženski HES do 20EUR</strong></p><p>U okviru ove prodaje možete se prijaviti i ponuditi i artikle do 10 EUR i kotizacija za to iznosi 10 EUR – 30 artikla.</p><p id=\"deciji-hes\"><strong>Dečiji HES do 20EUR</strong></p><p>U okviru dečijeg HES-a do 20 EUR možete uplatiti kotizaciju od:</p><ul><li>5 EUR i poslati 15 kolaža do 5 EUR vrednosti,</li><li>10 EUR i poslati 30 kolaža do 10 EUR vrednosti,</li><li>20 EUR i poslati 45 kolaža do 20E UR vrednosti.</li></ul><p>Jedina dodatna stavka ovde odnosi se na veličinu dečije odeće. Svaki brend ima svoje veličine u centrimetima, pa ćetako npr Zara odeća za uzrast od 9-12 meseci biti 80cm, dok je kod H&amp;M-a dužina od 74cm namenjena za uzrast od 12meseci. Zato je važno da napišete oba podatka (ako znate), a ako ne znate onda je važnija dužina u cm. Takođe, možetedopisati i napomenu npr. naznačeno za 2 godine ali može se nositi do 3, ili naznačeno do 2 godine, ali odgovara zamanji uzrast.</p><p><strong>MESEČNA PONUDA DO 50, 100, 200 I 300 EUR</strong></p><p>Ukoliko želite da se Vaši artikli nađu u našoj mesečnoj ponudi, prijavite se nedelju dana pre nego što mesec počne(npr. poslednje nedelje jula za avgust). Svaki prodavac ima pravo da pošalje maksimalno 20 artikla u okviru svake odovih ponuda.<em>To znači da možete poslati npr. 2 artikla do 50 EUR, 20 artikla do 100 EUR i 1 artikal do 300 EUR</em>. Kotizacijuza mesečni HES ne uplaćujete unapred, već se za prva tri prodata artikla odbija naša provizija koja u nastavku sledi.</p><p id=\"zenski-do-50\"><strong>HES DO 50 EUR – provizija za prva tri prodata artikla</strong></p><ol><li>5 EUR od vrednosti proizvoda</li><li>10 EUR od vrednosti proizvoda</li><li>15 EUR od vrednosti proizvoda</li></ol><p id=\"zenski-do-100\"><strong>HES do 100 EUR – provizija za prva tri prodata artikla</strong></p><ol><li>10 EUR od vrednosti proizvoda</li><li>15 EUR od vrednosti proizvoda</li><li>20 EUR od vrednosti proizvoda</li></ol><p id=\"zenski-do-200\"><strong>HES do 200 EUR – provizija za prva tri prodata artikla</strong></p><ol><li>15 EUR od vrednosti proizvoda</li><li>20 EUR od vrednosti proizvoda</li><li>25 EUR od vrednosti proizvoda</li></ol><p id=\"zenski-do-300\"><strong>HES do 300 EUR – provizija za prva tri prodata artikla</strong></p><ol><li>20 EUR od vrednosti proizvoda</li><li>25 EUR od vrednosti proizvoda</li><li>30 EUR od vrednosti proizvoda</li></ol><p>Gore navedene provizije NE DODAJU se na Vaše cene, već se odbijaju kao što su navedene u skladu sa time koliko artiklaprodate. Provizija ostaje nama SAMO za prva tri prodata artikla (iako ste poslali 20 artikla na prodaju), sve što sedalje proda ide samo Vama.</p><p>Svi artikli koje ste ponudili u jednom mesecu na kraju istog se povlače iz prodaje. Tokom trajanja prodaje možeteizabrati do 5 artikla kojima želite da umanjite cenu. Kada se mesec završi možete ponovo učestvovati u novom mesečnomHES-u ali sa drugim artiklima, ili ukoliko želite da isti ostanu na sajtu neophodno je korigovati cenu 10-15%. Ukolikoipak želite da artikli ostanu i sledeći mesec po punim cenama, neophodno je uplatiti 10EUR za obnovu svih tih oglasa.</p>"
+			},
+			{
+				"type": "rich-text",
+				"children": "<p> Dečija oprema do 100 EUR vrednosti ostaje u okviru mesečne ponude, dok oprema do 200EUR vrednosti za koju ste uplatili kotizaciju ostaje na našem sajtu 3 meseca.</p><br></br><br></br>"
+			}
+		]
+	}
+]

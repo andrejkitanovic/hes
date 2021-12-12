@@ -5,8 +5,8 @@ const IconCards = ({ cards }) => {
 		<div className="icon-cards">
 			<div className="container">
 				<div className="row">
-					{cards.map((card) => (
-						<div className="col-4">
+					{cards.map((card,index) => (
+						<div key={`icon-cards__card-${index}`} className="col-4">
 							<div className="icon-cards__card">
 								<div className="icon-cards__card-icon">
 									{card.icon && <Image src={card.icon} width={80} height={80} />}
