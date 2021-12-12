@@ -10,9 +10,14 @@
 @import 'core';
 @import 'shame';
 
-//Components
+//Globals
 @import './components/header';
+@import './components/footer';
+
+//Components
 @import './components/hero';
 @import './components/icon-cards';
 @import './components/breadcrumb-title';
 @import './components/rich-text';
+@import './components/avatar-text';
+@import './components/counter';

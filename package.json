@@ -8,6 +8,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "framer-motion": "^5.4.5",
     "html-react-parser": "^1.4.2",
     "next": "12.0.7",
     "node-sass": "^4.14.1",

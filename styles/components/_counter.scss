@@ -1,0 +1,25 @@
+@import '../utils';
+
+.counter {
+	height: 200px;
+	padding: 25px 0;
+	background-image: linear-gradient(
+		to right bottom,
+		#a33188,
+		#983391,
+		#8b379a,
+		#7a3ba2,
+		#6640aa,
+		#563ea3,
+		#463c9c,
+		#353a95,
+		#2d327f,
+		#252969,
+		#1e2154,
+		#171940
+	);
+
+	&__container {
+		max-width: 900px;
+	}
+}

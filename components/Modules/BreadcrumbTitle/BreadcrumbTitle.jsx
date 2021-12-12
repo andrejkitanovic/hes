@@ -1,5 +1,6 @@
+import { Fragment } from 'react';
 import Link from 'next/Link';
-import ArrowRightSVG from '../../SVG/ArrowRightSVG';
+import { ArrowRightSVG } from '../../Globals/SVGS/SVGS';
 
 export default function BreadcrumbTitle({ title, links }) {
 	return (
@@ -10,7 +11,7 @@ export default function BreadcrumbTitle({ title, links }) {
 						<div className="breadcrumb-title__breadcrumb d-flex justify-content-center align-items-center">
 							{links?.map((link, index) => {
 								return (
-									<>
+									<Fragment key={'breadcrumb-link_' + index}>
 										{index !== 0 && (
 											<div className="breadcrumb-title__breadcrumb-arrow">
 												<ArrowRightSVG />
@@ -23,7 +24,7 @@ export default function BreadcrumbTitle({ title, links }) {
 										) : (
 											<p className="breadcrumb-title__breadcrumb-link">{link.title}</p>
 										)}
-									</>
+									</Fragment>
 								);
 							})}
 						</div>

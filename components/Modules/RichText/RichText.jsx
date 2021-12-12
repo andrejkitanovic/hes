@@ -5,7 +5,7 @@ export default function RichText({ children }) {
 		<div className="rich-text">
 			<div className="container">
 				<div className="row">
-					<div className="col-12">{parse(children)}</div>
+					<div className="col-12">{children && parse(children)}</div>
 				</div>
 			</div>
 		</div>

@@ -1,9 +1,11 @@
+@import '../utils';
+
 .breadcrumb-title {
 	text-align: center;
 	margin: 50px 0;
 
 	&__breadcrumb {
-		margin-bottom: 30px;
+		margin-bottom: 15px;
 	}
 
 	&__breadcrumb-link {

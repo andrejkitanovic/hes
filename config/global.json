@@ -1,13 +1,21 @@
 {
 	"head": {
 		"post-title": " - HES",
-		"pre-title": ""
+		"pre-title": "",
+		"links": [
+			{
+				"href": "/favicon.ico",
+				"rel": "icon"
+			}
+		]
 	},
 	"header": {
 		"banner": {
-			"padding": "5px 0",
 			"title": "POŠTARINA OD 195 RSD!",
-			"background": "#e23c8e"
+			"style": {
+				"backgroundColor": "#e23c8e",
+				"padding": "5px 0"
+			}
 		},
 		"logo": {
 			"src": "/svgs/hes-logo.svg",
@@ -37,11 +45,6 @@
 			},
 			{
 				"type": "link",
-				"href": "/sta-je-hes",
-				"title": "Šta Je HES"
-			},
-			{
-				"type": "link",
 				"href": "/registracija",
 				"title": "Registracija"
 			},
@@ -57,5 +60,41 @@
 			}
 		]
 	},
-	"footer": {}
+	"footer": {
+		"socials": [
+			{
+				"icon": { "src": "/svgs/instagram.svg", "width": 35, "height": 35 },
+				"title": "PRATITE NAS",
+				"link": "https://instagram.com/hes__express",
+				"name": "hes__express"
+			},
+			{
+				"icon": { "src": "/svgs/whatsapp.svg", "width": 35, "height": 35 },
+				"title": "POŠALJITE PORUKU",
+				"link": "https://wa.me/+381606922015",
+				"name": "060 / 69 22 015"
+			},
+			{
+				"icon": { "src": "/svgs/envelope.svg", "width": 35, "height": 35 },
+				"title": "PIŠITE NAM",
+				"link": "mailto:info@hes.rs",
+				"name": "info@hes.rs"
+			}
+		],
+		"copyright": "<p>HES-ov logo je zaštićen propisima koji se primenjuju u Republici Srbiji za pravo intelektualne svojine.</p><p>© 2021 HES. Sva prava zadržana. Svaki oblik upotrebe ili preuzimanja sadržaja vebsajta (kopiranje,reprodukcija, distribucija itd.) je zabranjen i ni na jedan način ne sme biti korišćen van dozvole autora.</p><p>Development <a href=\"https://boopro.tech/\">Boopro</a></p>"
+	},
+	"pageTransition": {
+		"initial": {
+			"opacity": 0
+		},
+		"animate": {
+			"opacity": 1,
+			"transition": {
+				"duration": 0.5
+			}
+		},
+		"exit": {
+			"opacity": 0
+		}
+	}
 }

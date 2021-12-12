@@ -6,7 +6,7 @@ h1 {
 	font-size: 40px;
 }
 
-h2{
+h2 {
 	font-size: 20px;
 	line-height: 28px;
 }
@@ -29,4 +29,52 @@ ul {
 a {
 	color: #a33188;
 	cursor: pointer;
+}
+
+@mixin text-editor {
+	p,
+	ul,
+	ol,
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		margin-bottom: 30px;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		&.header-indent {
+			position: relative;
+			color: #a33188;
+			padding-left: 70px;
+
+			&::before {
+				position: absolute;
+				content: '';
+				height: 3px;
+				width: 50px;
+				background-color: #ccc;
+				left: 0;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+		}
+	}
+
+	mark.secondary {
+		background: $pink;
+		color: #fff;
+	}
+
+	mark.highlight {
+		background: #e23c8e33;
+		padding: 0 10px;
+	}
 }

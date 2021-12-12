@@ -1,0 +1,27 @@
+@import '../utils';
+
+.avatar-text {
+	$el: &;
+	max-width: 900px;
+	margin: 50px auto;
+
+	@include text-editor;
+
+	&__image {
+		width: 350px;
+		height: 350px;
+		border-radius: 50%;
+		border: 3px solid #efefef;
+		overflow: hidden;
+	}
+
+	&__text {
+		letter-spacing: -0.4px;
+		margin-left: 15px;
+	}
+
+	&.reverse &__text {
+		margin-left: 0;
+		margin-right: 15px;
+	}
+}

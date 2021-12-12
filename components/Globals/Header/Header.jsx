@@ -1,14 +1,14 @@
 import Image from 'next/image';
-import Link from 'next/link';
+import Link from 'next/Link';
 
-import CartSVG from '../../SVG/CartSVG';
+import { CartSVG } from '../../Globals/SVGS/SVGS';
 
-export default function Header({ banner, logo, navigation }) {
+export default function Header({ banner, logo, navigation, active }) {
 	return (
 		<header className="header">
 			<div className="header__top">
 				{banner && (
-					<div className="header__top-shipping" style={{ padding: banner.padding, background: banner.background }}>
+					<div className="header__top-shipping" style={{ ...banner.style }}>
 						{banner.title}
 					</div>
 				)}
@@ -25,16 +25,18 @@ export default function Header({ banner, logo, navigation }) {
 						</div>
 						<div className="col-10">
 							<div className="header__links d-flex align-items-center justify-content-center">
-								{navigation?.map((navItem) => {
+								{navigation?.map((navItem, index) => {
 									if (navItem.type === 'link') {
 										return (
-											<Link href={navItem.href}>
-												<a className="header__link">{navItem.title}</a>
+											<Link key={`navitem_${index}`} href={navItem.href}>
+												<a className={`header__link${'/' + active === navItem.href ? ' active' : ''}`}>
+													{navItem.title}
+												</a>
 											</Link>
 										);
 									} else if (navItem.type === 'dropdown-button') {
 										return (
-											<a href={navItem.href} className="header__button">
+											<a key={`navitem_${index}`} href={navItem.href} className="header__button">
 												{navItem.title}
 											</a>
 										);
