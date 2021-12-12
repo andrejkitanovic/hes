@@ -13,6 +13,7 @@ function getGlobalConfig() {
 			'pre-title': global?.head?.['pre-title'],
 			'post-title': global?.head?.['post-title'],
 		},
+		header: global.header
 	};
 
 	return globalConfig;
@@ -57,7 +58,7 @@ export default function LayoutBuilder({ link }) {
 				{/* <meta name="description" content="Mesto gde se najbrže prodaje i najjeftinije kupuje!" /> */}
 				{/* <link rel="icon" href="/favicon.ico" /> */}
 			</Head>
-			<Header />
+			<Header {...globalConfig?.header} />
 
 			<main>{pageConfig.modules}</main>
 

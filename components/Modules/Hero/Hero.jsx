@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-const Hero = ({ header, description, button, image }) => {
+export default function Hero({ header, description, button, image }) {
 	return (
 		<section className="hero">
 			<div className="container">
@@ -23,6 +23,4 @@ const Hero = ({ header, description, button, image }) => {
 			</div>
 		</section>
 	);
-};
-
-export default Hero;
+}

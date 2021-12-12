@@ -3,11 +3,15 @@ import Link from 'next/link';
 
 import CartSVG from '../../SVG/CartSVG';
 
-const Header = () => {
+export default function Header({ banner, logo, navigation }) {
 	return (
 		<header className="header">
 			<div className="header__top">
-				<div className="header__top-shipping">POŠTARINA OD 195 RSD!</div>
+				{banner && (
+					<div className="header__top-shipping" style={{ padding: banner.padding, background: banner.background }}>
+						{banner.title}
+					</div>
+				)}
 			</div>
 			<div className="header__main">
 				<div className="container">
@@ -15,35 +19,27 @@ const Header = () => {
 						<div className="col-1">
 							<div className="header__logo">
 								<Link href="/" passHref>
-									<a>
-										<Image src="/svgs/hes-logo.svg" width={60} height={60} />
-									</a>
+									<a>{logo && <Image src={logo.src} width={logo.width} height={logo.height} />}</a>
 								</Link>
 							</div>
 						</div>
 						<div className="col-10">
 							<div className="header__links d-flex align-items-center justify-content-center">
-								<Link href="/sta-je-hes">
-									<a className="header__link">Šta Je HES</a>
-								</Link>
-								<Link href="/hocu-da-kupim">
-									<a className="header__link">Hoću Da Kupim</a>
-								</Link>
-								<Link href="/hocu-da-prodam">
-									<a className="header__link">Hoću Da Prodam</a>
-								</Link>
-								<Link href="/ponuda">
-									<a className="header__button">Ponuda</a>
-								</Link>
-								<Link href="/registracija">
-									<a className="header__link">Registracija</a>
-								</Link>
-								<Link href="/instrukcije">
-									<a className="header__link">Instrukcije</a>
-								</Link>
-								<Link href="/kontakt">
-									<a className="header__link">Kontakt</a>
-								</Link>
+								{navigation?.map((navItem) => {
+									if (navItem.type === 'link') {
+										return (
+											<Link href={navItem.href}>
+												<a className="header__link">{navItem.title}</a>
+											</Link>
+										);
+									} else if (navItem.type === 'dropdown-button') {
+										return (
+											<a href={navItem.href} className="header__button">
+												{navItem.title}
+											</a>
+										);
+									}
+								})}
 							</div>
 						</div>
 						<div className="col-1">
@@ -70,6 +66,4 @@ const Header = () => {
 			</div>
 		</header>
 	);
-};
-
-export default Header;
+}

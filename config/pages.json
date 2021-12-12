@@ -57,7 +57,16 @@
 			{
 				"type": "breadcrumb-title",
 				"props": {
-					"title": "Šta je HES"
+					"title": "Šta je HES",
+					"links": [
+						{
+							"title": "Naslovna",
+							"href": "/"
+						},
+						{
+							"title": "Šta je HES"
+						}
+					]
 				}
 			},
 			{
@@ -79,7 +88,86 @@
 			{
 				"type": "breadcrumb-title",
 				"props": {
-					"title": "Hoću da kupim"
+					"title": "Hoću da kupim",
+					"links": [
+						{
+							"title": "Naslovna",
+							"href": "/"
+						},
+						{
+							"title": "Hoću da kupim"
+						}
+					]
+				}
+			},
+			{
+				"type": "rich-text",
+				"children": "<p>Sve artikle koje želite da kupite, poručujete tako što ih dodate u&nbsp;<strong>Korpu</strong>. Kada ste završili sadodavanjem artikla, unosite svoje podatke za dostavu nakon čega ćete dobiti automatski mail&nbsp;<strong>(proverite Spam/Junk ukoliko poruka nije u Inbox-u)</strong>&nbsp;– tu se nalaze instrukcije za plaćanje. <u>Rok za uplatu poručenih artikla je 24h. </u>Plaćanje se vrši udinarskoj protivvrednosti po kursu 118 rsd.</p><p>Sve artikle koje poručite stižu u naš magacin gde vršimo proveru kvaliteta. Kao posrednici u prodaji, pobrinućemo seda dobijete ono što ste zaista i poručili. Za svaki artikal koji bude imao manu koju prodavac nije uslikao (ilinaglasio da postoji na kolažu) naš tim će Vas kontaktirati i konsultovati se sa Vama o tome da li želite i dalje dauzmete taj artikal ili odustajete. Kao kupac koji kupuje na HES-u imate potpuno pravo da odustanete, a novac će Vambiti refundiran.</p><p>Rok za plaćanje svih poručenih artikla je 24h od trenutka porudžbine (ukoliko poručite artikal subotom popodne, molimoVas da plaćanje izvršite u toku pre podneva ponedeljkom). Nakon plaćanja, potrebno je uslikati dokaz o izvršenojuplati i isti poslati na mail <u><a href=\"mailto:prodaja@hes.rs\">prodaja@hes.rs</a></u> Kada dobijemo Vaš mail,dobićete povratni mail sa informacijom da je Vaša uplata evidentirana i da paket možete očekivati u redovnom roku(subotom). Prilikom uplate obavezno upisati poziv na broj (to je broj Vaše porudžbine koji ćete dobiti u mail-u).</p><p><strong><em>*Pod proverom kvaliteta podrazumevamo proveru da li je poručeni artikal isti kao na slici, bez skrivenihnedostataka, fleka, i slično. HES ne može utvrditi da li je proizvod koji poručujete original, koliko je putakorišćen i slično.</em></strong></p><h2 class=\"header-indent\">LEGENDA</h2><ul> <li><strong><em>1. novo sa etiketom</em></strong> – artikal koji je nov sa etiketom proizvođača.</li> <li><strong><em>2. novo</em></strong> – artikal koji je nov, ali nema etiketu. Nije nošen, nije opran. Onaj ko ga je kupio, samo je skinuo etiketu sa njega.</li> <li><strong><em>3. samo oprano</em></strong> – artikal koji je u besprekornom stanju. Nije ni jednom obučen, već je samo opran.</li> <li><strong><em>4. jednom nošeno</em></strong> – artikal koji je jednom obučen i opran. Kao novo. Stanje artikla je nepromenjeno u odnosu na isti takav nov artikal, osim što je samo jednom nošen i opran.</li> <li><strong><em>5. očuvano</em></strong> – artikal koji je u dobrom stanju, nošen više puta, ali nema nikakve defekte (nije pohaban, nije izvučen konac, nije pocepan ni flekav). Očuvan je i bez većih tragova korišćenja.</li> <li><strong><em>6. nošeno</em></strong> – artikal koji je iznošen, može imati neki sitan nedostatak, ali nema većih oštećenja. Star je, ali ipak može još da se koristi. Boja može biti izbledela.</li></ul><p><strong>VAŽNO</strong> – kada artikal stigne u naš magacin, tim koji će biti zadužen za proveru artikla koje ste poslali, strogo će kontrolisati da li se opis koji ste stavili na kolaž slaže sa pravim stanjem artikla.</p>"
+			}
+		]
+	},
+	{
+		"link": "hocu-da-prodam",
+		"title": "Hoću da prodam",
+		"meta": [
+			{
+				"name": "description",
+				"content": "Hoću da prodam"
+			}
+		],
+		"modules": [
+			{
+				"type": "breadcrumb-title",
+				"props": {
+					"title": "Hoću da prodam",
+					"links": [
+						{
+							"title": "Naslovna",
+							"href": "/"
+						},
+						{
+							"title": "Hoću da prodam"
+						}
+					]
+				}
+			},
+			{
+				"type": "rich-text",
+				"children": "<p><strong>Našu uslugu posredovanja u prodaji pružićemo svakom prodavcu koji ima potrebu za prodajom dečijih artikla (odeće iopreme), kao i ženske odeće i aksesoara.</strong></p><p>Procedura za prijavu prodavaca je sledeća:</p><p>1. Javite se na <a href=\"https://wa.me/+381606922015\" target=\"_blank\" rel=\"noopener\">WhatsApp-u na 060 69 22 015 </a>(Jelena), gde ćete dobiti jedinstveni HES broj koji koristite svaki put kada učestvujete.</p><p>2. Izvršite uplatu na <a href=\"https://hes.rs/wp-content/uploads/2021/05/nalog-za-uplatu.pdf\" target=\"_blank\" rel=\"noopener\">tekući račun naše firme</a> i obavezno upišite svoj jedinstveni HES broj kao na primeru <a href=\"https://hes.rs/wp-content/uploads/2021/05/nalog-za-uplatu.pdf\" target=\"_blank\" rel=\"noopener\">uplatnice</a>. Visina kotizacijie koju uplaćujete zavisi od toga za koji HES se prijavljujete (<a href=\"#price\">Vidi cenovnik</a>).</p><p>3. <a href=\"https://hes.rs/registracija/\">Registrujte se.</a></p><p>4. Napravite kolaže isključivo prema našim <a href=\"https://hes.rs/instrukcije/\">instrukcijama</a>. Osobazadužena za kontrolu i prijem kolaža je Vanesa i iste šaljete na njen <a href=\"https://wa.me/+381606922016\" rel=\"nofollow noopener\" target=\"_blank\">WhatsApp broj 060 69 22 016</a> aposlednji rok za slanje je četvrtak do 12h. <em>Svi prodavci koji pošalju kolaže nakon ovog roka neće moći da učestvuju na HES-u za koji su se prijavili. </em></p>"
+			},
+			{
+				"type": "rich-text",
+				"children": "<p>Nakon što je HES završen, u utorak do 22h na Vaš mail poslaćemo šta je sve od Vaših artikla prodato, i neophodno je dau&nbsp;<strong>sredu</strong>&nbsp;sve prodato pošaljete na našu adresu u jednom paketu isključivo POST EXPRESS-om.<em>Svaka druga brza pošta pokazala se u praksi nepouzdana kada su rokovi u pitanju! </em><strong>&nbsp;treba na svom paketu da napiše i zalepi na vidljivo mesto svoj HES broj. </strong>Trošak poštarinesnosite Vi.</p><p>Četvrtak je dan za pakovanje porudžbina i tada će tim zadužen za pakovanje strogo kontrolisati kvalitet artikla kojeste poslali. Nakon što se uverimo da je sa Vašim artiklima sve kao u stanju koje ste naveli na kolažima, na Vaš tekućiračun biće proknjižena uplata. <u>Uplate vršimo petkom.</u></p><p><strong>Svakom prodavcu koji pošalje artikal sa flekom ili oštećenjem, iznos za uplatu (od prodatih arikla) biće umanjen zapo 5e po neispravnom artiklu.</strong></p><p>Do kraja radne nedelje, kupci će na svojim adresama imati u jednom paketu sve artikle koje su poručili, bilo da sukupili samo od Vas ili od još 5 drugih prodavaca. Tako će i trošak poštarine koju plaćaju kupci biti minimalan, čimećemo obezbediti zadovoljstvo sa obe strane prodaje. Naš tim odradiće sve ostalo.</p><h2 class=\"indent-header\">LEGENDA</h2><ul><li><strong><em>1. novo sa etiketom</em></strong> – artikal koji je nov sa etiketom proizvođača.</li><li><strong><em>2. novo</em></strong> – artikal koji je nov, ali nema etiketu. Nije nošen, nije opran. Onaj ko ga jekupio, samo je skinuo etiketu sa njega.</li><li><strong><em>3. samo oprano</em></strong> – artikal koji je u besprekornom stanju. Nije ni jednom obučen, već je samoopran.</li><li><strong><em>4. jednom nošeno</em></strong> – artikal koji je jednom obučen i opran. Kao novo. Stanje artikla jenepromenjeno u odnosu na isti takav nov artikal, osim što je samo jednom nošen i opran.</li><li><strong><em>5. očuvano</em></strong> – artikal koji je u dobrom stanju, nošen više puta, ali nema nikakve defekte(nije pohaban, nije izvučen konac, nije pocepan ni flekav). Očuvan je i bez većih tragova korišćenja.</li><li><strong><em>6. nošeno</em></strong> – artikal koji je iznošen, može imati neki sitan nedostatak, ali nema većihoštećenja. Star je, ali ipak može još da se koristi. Boja može biti izbledela.</li></ul><b>VAŽNO</b> – kada artikal stigne u naš magacin, tim koji će biti zadužen za proveru artikla koje ste poslali, strogoće kontrolisati da li se opis koji ste stavili na kolaž slaže sa pravim stanjem artikla."
+			},
+			{
+				"type": "rich-text",
+				"children": "<h2 class=\"indent-header\">VAŽNI USLOVI ZA SARADNJU</h2><ul><li>– svaki prodavac mora ispoštovati proceduru za prijavu (sva 4 koraka objašnjena na početku stranice) kako bi uplatasa naše strane mogla da bude izvršena u navedenom roku</li><li>– svaki prodavac bez odlaganja mora poslati paket sredom, jer je četvrtak jedini dan kad naš tim vrši kontrolu,pakovanje i pripremu za slanje, te svaki paket koji bude kasnio biće vraćen prodavcu.</li><li>– post express se u praksi pokazao kao najpouzdaniji za dostavu, tako da svaki prodavac koji pošalje paket drugombrzom poštom treba biti svestan rizika da će paket u 99% slučajeva kasniti (ili se zagubiti), te će mu isti bitivraćen, odnosno-neće dobiti uplatu za te prodate artikle*</li><li>– kotizacija se ne može refundirati. Ukoliko izvršite uplatu kotizacije za učešće, ista važi samo za tu nedelju i nemože se prenositi za sledeće učešće.</li><li><strong>– svakom prodavcu koji pošalje artikal sa flekom ili oštećenjem, iznos za uplatu (od prodatih arikla) bićeumanjen za po 5e po neispravnom artiklu.</strong></li></ul><p>*naš tim koji je angažovan za pakovanje u roku od 24 sata razvrstava sve artikle koji pristignu i priprema ih zaslanje kupcima. HES isključivo petkom šalje pakete kupcima, i kako bi mi mogli da ispoštujemo taj rok neophodno je dasve što Vam javimo da je prodato pošaljete sredom, kako bi se ceo proces odvijao nesmetano. Kada sredom pošaljetepaket, obavezno slikajte potvrdu o prijemu paketa iz pošte i pošaljite nam.</p>"
+			}
+		]
+	},
+	{
+		"link": "registracija",
+		"title": "Registracija",
+		"meta": [
+			{
+				"name": "description",
+				"content": "Registracija za prodavce!"
+			}
+		],
+		"modules": [
+			{
+				"type": "breadcrumb-title",
+				"props": {
+					"title": "Registracija za prodavce",
+					"links": [
+						{
+							"title": "Naslovna",
+							"href": "/"
+						},
+						{
+							"title": "Registracija za prodavce"
+						}
+					]
 				}
 			}
 		]
@@ -97,7 +185,16 @@
 			{
 				"type": "breadcrumb-title",
 				"props": {
-					"title": "Instrukcije"
+					"title": "Instrukcije",
+					"links": [
+						{
+							"title": "Naslovna",
+							"href": "/"
+						},
+						{
+							"title": "Instrukcije"
+						}
+					]
 				}
 			},
 			{
@@ -107,6 +204,60 @@
 			{
 				"type": "rich-text",
 				"children": "<p> Dečija oprema do 100 EUR vrednosti ostaje u okviru mesečne ponude, dok oprema do 200EUR vrednosti za koju ste uplatili kotizaciju ostaje na našem sajtu 3 meseca.</p><br></br><br></br>"
+			}
+		]
+	},
+	{
+		"link": "kontakt",
+		"title": "Kontakt",
+		"meta": [
+			{
+				"name": "description",
+				"content": "Kontakt"
+			}
+		],
+		"modules": [
+			{
+				"type": "breadcrumb-title",
+				"props": {
+					"title": "Kontakt",
+					"links": [
+						{
+							"title": "Naslovna",
+							"href": "/"
+						},
+						{
+							"title": "Kontakt"
+						}
+					]
+				}
+			}
+		]
+	},
+	{
+		"link": "akcija",
+		"title": "Akcija",
+		"meta": [
+			{
+				"name": "description",
+				"content": "Akcija"
+			}
+		],
+		"modules": [
+			{
+				"type": "breadcrumb-title",
+				"props": {
+					"title": "Akcija",
+					"links": [
+						{
+							"title": "Naslovna",
+							"href": "/"
+						},
+						{
+							"title": "Akcija"
+						}
+					]
+				}
 			}
 		]
 	}

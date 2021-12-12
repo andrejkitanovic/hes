@@ -3,6 +3,59 @@
 		"post-title": " - HES",
 		"pre-title": ""
 	},
-	"header": {},
+	"header": {
+		"banner": {
+			"padding": "5px 0",
+			"title": "POŠTARINA OD 195 RSD!",
+			"background": "#e23c8e"
+		},
+		"logo": {
+			"src": "/svgs/hes-logo.svg",
+			"width": 60,
+			"height": 60
+		},
+		"navigation": [
+			{
+				"type": "link",
+				"href": "/sta-je-hes",
+				"title": "Šta Je HES"
+			},
+			{
+				"type": "link",
+				"href": "/hocu-da-kupim",
+				"title": "Hoću Da Kupim"
+			},
+			{
+				"type": "link",
+				"href": "/hocu-da-prodam",
+				"title": "Hoću Da Prodam"
+			},
+			{
+				"type": "dropdown-button",
+				"href": "#",
+				"title": "Ponuda"
+			},
+			{
+				"type": "link",
+				"href": "/sta-je-hes",
+				"title": "Šta Je HES"
+			},
+			{
+				"type": "link",
+				"href": "/registracija",
+				"title": "Registracija"
+			},
+			{
+				"type": "link",
+				"href": "/instrukcije",
+				"title": "Instrukcije"
+			},
+			{
+				"type": "link",
+				"href": "/kontakt",
+				"title": "Kontakt"
+			}
+		]
+	},
 	"footer": {}
 }

@@ -1,6 +1,6 @@
 import parse from 'html-react-parser';
 
-const RichText = ({ children }) => {
+export default function RichText({ children }) {
 	return (
 		<div className="rich-text">
 			<div className="container">
@@ -10,6 +10,4 @@ const RichText = ({ children }) => {
 			</div>
 		</div>
 	);
-};
-
-export default RichText;
+}

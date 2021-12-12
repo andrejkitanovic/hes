@@ -1,11 +1,11 @@
 import Image from 'next/image';
 
-const IconCards = ({ cards }) => {
+export default function IconCards({ cards }) {
 	return (
 		<div className="icon-cards">
 			<div className="container">
 				<div className="row">
-					{cards.map((card,index) => (
+					{cards.map((card, index) => (
 						<div key={`icon-cards__card-${index}`} className="col-4">
 							<div className="icon-cards__card">
 								<div className="icon-cards__card-icon">
@@ -21,6 +21,4 @@ const IconCards = ({ cards }) => {
 			</div>
 		</div>
 	);
-};
-
-export default IconCards;
+}

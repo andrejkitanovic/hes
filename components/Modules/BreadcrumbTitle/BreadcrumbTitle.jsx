@@ -1,11 +1,31 @@
-const BreadcrumbTitle = ({ title }) => {
+import Link from 'next/Link';
+import ArrowRightSVG from '../../SVG/ArrowRightSVG';
+
+export default function BreadcrumbTitle({ title, links }) {
 	return (
 		<div className="breadcrumb-title">
 			<div className="container">
 				<div className="row">
 					<div className="col-12">
-						<div className="breadcrumb-title__breadcrumb">
-							<div className="breadcrumb-title__breadcrumb-link">Instrukcije</div>
+						<div className="breadcrumb-title__breadcrumb d-flex justify-content-center align-items-center">
+							{links?.map((link, index) => {
+								return (
+									<>
+										{index !== 0 && (
+											<div className="breadcrumb-title__breadcrumb-arrow">
+												<ArrowRightSVG />
+											</div>
+										)}
+										{link.href ? (
+											<Link href={link.href}>
+												<a className="breadcrumb-title__breadcrumb-link">{link.title}</a>
+											</Link>
+										) : (
+											<p className="breadcrumb-title__breadcrumb-link">{link.title}</p>
+										)}
+									</>
+								);
+							})}
 						</div>
 						<h1 className="breadcrumb-title__title">{title}</h1>
 					</div>
@@ -13,6 +33,4 @@ const BreadcrumbTitle = ({ title }) => {
 			</div>
 		</div>
 	);
-};
-
-export default BreadcrumbTitle;
+}
