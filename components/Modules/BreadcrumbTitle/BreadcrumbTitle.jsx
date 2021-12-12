@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import Link from 'next/Link';
+import Link from 'next/link';
 import { ArrowRightSVG } from '../../Globals/SVGS/SVGS';
 
 export default function BreadcrumbTitle({ title, links }) {

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function IconCards({ cards }) {
 	return (
@@ -13,7 +14,12 @@ export default function IconCards({ cards }) {
 								</div>
 								<div className="icon-cards__card-title">{card.header}</div>
 								<div className="icon-cards__card-description">{card.description}</div>
-								<a className="icon-cards__card-link link">SAZNAJ VIŠE +</a>
+
+								{card.href && (
+									<Link href={card.href}>
+										<a className="icon-cards__card-link link">SAZNAJ VIŠE +</a>
+									</Link>
+								)}
 							</div>
 						</div>
 					))}
