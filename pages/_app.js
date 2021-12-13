@@ -4,6 +4,8 @@ import Head from 'next/head';
 import { Header, Footer, Cart } from '../components/Globals';
 import { mapModules } from '../components/Modules';
 import { AnimatePresence, motion } from 'framer-motion';
+import { Provider } from 'react-redux';
+import { useStore } from '../store';
 
 // Global & Page config
 import global from '../config/global.json';
@@ -19,6 +21,7 @@ function getGlobalConfig() {
 		},
 		header: global.header,
 		footer: global.footer,
+		cart: global.cart,
 		pageTransition: global.pageTransition,
 	};
 
@@ -68,34 +71,34 @@ export default function MyApp({ Component, pageProps, router }) {
 		modules: pageConfig?.modules,
 	};
 
-	// if (!pageConfig) {
-	// 	return <Component {...pageProps} />;
-	// }
+	const store = useStore(pageProps.initialReduxState)
 
 	return (
-		<div>
-			<Head>
-				<title>
-					{globalConfig?.head?.['pre-title']}
-					{pageConfig.title}
-					{globalConfig?.head?.['post-title']}
-				</title>
-				{globalConfig?.head?.meta}
-				{pageConfig?.meta}
-				{globalConfig?.head?.links}
-			</Head>
+		<Provider store={store}>
+			<div>
+				<Head>
+					<title>
+						{globalConfig?.head?.['pre-title']}
+						{pageConfig.title}
+						{globalConfig?.head?.['post-title']}
+					</title>
+					{globalConfig?.head?.meta}
+					{pageConfig?.meta}
+					{globalConfig?.head?.links}
+				</Head>
 
-			<Header {...globalConfig?.header} active={router.asPath} />
+				<Header {...globalConfig?.header} active={router.asPath} />
 
-			<main className="main">
-				<Cart />
-				<AnimatePresence exitBeforeEnter>
-					<motion.div key={router.asPath} {...globalConfig?.pageTransition}>
-						<Component {...pageProps} />
-					</motion.div>
-				</AnimatePresence>
-			</main>
-			<Footer {...globalConfig?.footer} />
-		</div>
+				<main className="main">
+					<Cart {...globalConfig?.cart} />
+					<AnimatePresence exitBeforeEnter>
+						<motion.div key={router.asPath} {...globalConfig?.pageTransition}>
+							<Component {...pageProps} />
+						</motion.div>
+					</AnimatePresence>
+				</main>
+				<Footer {...globalConfig?.footer} />
+			</div>
+		</Provider>
 	);
 }

@@ -9,6 +9,7 @@ import Counter from './Counter/Counter';
 import BoxList from './BoxList/BoxList';
 import Pricelist from './Pricelist/Pricelist';
 import Reviews from './Reviews/Reviews';
+import ImageBlock from './ImageBlock/ImageBlock';
 
 const mapModules = ({ key, children, props }) => {
 	return {
@@ -27,6 +28,7 @@ const mapModules = ({ key, children, props }) => {
 		'box-list': <BoxList key={key} {...props} />,
 		pricelist: <Pricelist key={key} {...props} />,
 		reviews: <Reviews key={key} {...props} />,
+		'image-block': <ImageBlock key={key} {...props} />,
 	};
 };
 export { mapModules };

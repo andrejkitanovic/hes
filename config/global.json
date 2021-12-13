@@ -83,6 +83,37 @@
 		],
 		"copyright": "<p>HES-ov logo je zaštićen propisima koji se primenjuju u Republici Srbiji za pravo intelektualne svojine.</p><p>© 2021 HES. Sva prava zadržana. Svaki oblik upotrebe ili preuzimanja sadržaja vebsajta (kopiranje,reprodukcija, distribucija itd.) je zabranjen i ni na jedan način ne sme biti korišćen van dozvole autora.</p><p>Development <a href=\"https://boopro.tech/\">Boopro</a></p>"
 	},
+	"cart": {
+		"overlayTransition": {
+			"initial": {
+				"opacity": 0
+			},
+			"animate": {
+				"opacity": 1,
+
+				"transition": {
+					"duration": 0.3
+				}
+			},
+			"exit": {
+				"opacity": 0
+			}
+		},
+		"cartTransition": {
+			"initial": {
+				"x": "100%"
+			},
+			"animate": {
+				"x": "0%",
+				"transition": {
+					"duration": 0.3
+				}
+			},
+			"exit": {
+				"x": "100%"
+			}
+		}
+	},
 	"pageTransition": {
 		"initial": {
 			"opacity": 0

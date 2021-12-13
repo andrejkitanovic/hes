@@ -43,7 +43,7 @@
 		font-size: 14px;
 		padding: 5px 33px;
 		margin: 0 10px;
-		font-weight: 800;
+		font-weight: 700;
 		background-color: #a33188;
 		border-radius: 20px;
 		animation: 2s pulse ease('fluid') infinite;
@@ -55,7 +55,15 @@
 
 	&__cart {
 		height: 100%;
-		cursor: pointer;
+
+		svg {
+			transition: fill 0.2s ease('fluid');
+			cursor: pointer;
+
+			&:hover {
+				fill: #e23c8e;
+			}
+		}
 	}
 
 	&__cart-count {

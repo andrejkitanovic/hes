@@ -137,11 +137,25 @@
 					"type": "rich-text",
 					"props": {
 						"style": {
-							"paddingTop": "80px",
-							"marginBottom": "150px"
+							"paddingTop": "80px"
+						
 						}
 					},
 					"children": "<p style=\"text-align:center\"><strong>Došao je kraj rizicima od duple poštarine ili kupovine „mačke u džaku“!<br>Od sada, naš tim će, pre nego što platite artikal koji ste poručili, izvršiti proveru istog, tj. utvrditi da li kvalitet odgovara ugovorenom!</strong></p>"
+				},
+				{
+					"type": "image-block",
+					"props": {
+						"style":{
+							"marginTop": "-20px",
+							"marginBottom": "150px"
+						},
+						"video": {
+							"src": "/images/avatar-delivery.mp4",
+							"width": 530,
+							"height": 530
+						}
+					}
 				}
 			]
 		},

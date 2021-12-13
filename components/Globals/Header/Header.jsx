@@ -1,9 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+import { useDispatch } from 'react-redux';
 import { CartSVG } from '../../Globals/SVGS/SVGS';
+import { openCart } from '../../../store/actions';
 
 export default function Header({ banner, logo, navigation, active }) {
+	const dispatch = useDispatch();
 	return (
 		<header className="header">
 			<div className="header__top">
@@ -43,8 +46,11 @@ export default function Header({ banner, logo, navigation, active }) {
 							</div>
 						</div>
 						<div className="col-1">
-							<div className="header__cart d-flex align-items-center justify-content-end">
-								<CartSVG width={26} height={26} />
+							<div
+								className="header__cart d-flex align-items-center justify-content-end"
+								
+							>
+								<CartSVG width={26} height={26} onClick={() => dispatch(openCart())} />
 								<div className="header__cart-count d-flex align-items-center justify-content-center">0</div>
 							</div>
 						</div>

@@ -4,7 +4,8 @@ export default function Counter({ style }) {
 			<div className="container">
 				<div className="counter__container">
 					<div className="row">
-						<div className="col-4"></div>
+						<div className="col-4">
+						</div>
 					</div>
 				</div>
 			</div>

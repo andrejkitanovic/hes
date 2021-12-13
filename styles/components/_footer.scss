@@ -3,7 +3,6 @@
 .footer {
 	position: relative;
 	background-color: #171940;
-	// margin-top: 150px;
 	width: 100%;
 
 	&::before {
@@ -40,6 +39,16 @@
 	&__newsletter-description {
 		font-size: 14px;
 		color: #a9a9a9;
+	}
+
+	&__subscribe-input {
+		background: #fff;
+		height: 45px;
+		width: 300px;
+		margin-right: -16px;
+		border-top-left-radius: 20px;
+		border-bottom-left-radius: 20px;
+		padding: 0 15px;
 	}
 
 	&__main {
