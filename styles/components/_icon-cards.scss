@@ -6,7 +6,7 @@
 
 	&__card {
 		text-align: center;
-		height: 473px;
+		height: 100%;
 		padding: 60px 65px;
 		background: #fff;
 		box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 45px 0px;
@@ -17,6 +17,7 @@
 	}
 
 	&__card-title {
+		color:#000;
 		font-weight: 700;
 		font-size: 21px;
 		line-height: 21px;

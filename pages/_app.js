@@ -1,7 +1,7 @@
 import '../styles/application.scss';
 import Head from 'next/head';
 
-import { Header, Footer } from '../components/Globals';
+import { Header, Footer, Cart } from '../components/Globals';
 import { mapModules } from '../components/Modules';
 import { AnimatePresence, motion } from 'framer-motion';
 
@@ -86,7 +86,9 @@ export default function MyApp({ Component, pageProps, router }) {
 			</Head>
 
 			<Header {...globalConfig?.header} active={router.asPath} />
+
 			<main className="main">
+				<Cart />
 				<AnimatePresence exitBeforeEnter>
 					<motion.div key={router.asPath} {...globalConfig?.pageTransition}>
 						<Component {...pageProps} />

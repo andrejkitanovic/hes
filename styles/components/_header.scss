@@ -32,7 +32,7 @@
 		&.active {
 			color: #e23c8e;
 		}
-		
+
 		&:hover {
 			color: #a33188;
 		}
@@ -47,6 +47,10 @@
 		background-color: #a33188;
 		border-radius: 20px;
 		animation: 2s pulse ease('fluid') infinite;
+
+		&:hover {
+			color: #fff;
+		}
 	}
 
 	&__cart {

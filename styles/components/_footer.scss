@@ -14,7 +14,7 @@
 		width: 100%;
 		height: 280px;
 		background-image: url('/svgs/footer-top.svg');
-
+		pointer-events: none;
 		transform: rotateY(180deg);
 	}
 

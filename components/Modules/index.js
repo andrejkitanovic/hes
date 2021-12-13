@@ -8,6 +8,7 @@ import BreadcrumbTitle from './BreadcrumbTitle/BreadcrumbTitle';
 import Counter from './Counter/Counter';
 import BoxList from './BoxList/BoxList';
 import Pricelist from './Pricelist/Pricelist';
+import Reviews from './Reviews/Reviews';
 
 const mapModules = ({ key, children, props }) => {
 	return {
@@ -25,6 +26,7 @@ const mapModules = ({ key, children, props }) => {
 		counter: <Counter key={key} {...props} />,
 		'box-list': <BoxList key={key} {...props} />,
 		pricelist: <Pricelist key={key} {...props} />,
+		reviews: <Reviews key={key} {...props} />,
 	};
 };
 export { mapModules };

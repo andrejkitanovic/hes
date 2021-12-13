@@ -93,12 +93,216 @@
 					"children": "<p style=\"text-align:center;font-size:21px;color:#414141;\"><strong>Budući da je Hot Express Sale (HES) prvi u Srbiji koji pruža ovu mogućnost prodaje, želimo da podelimo sa Vama iskustva dosadašnjih učesnika…</strong></p>"
 				},
 				{
+					"type": "reviews",
+					"props": {
+						"reviews": [
+							{
+								"title": "Zaradila sam čisto 150€...",
+								"review": "Učestvovala kao prodavac 3x. 2x dečiji HES i jednom ženski. Prezadovoljna sam, sa dečijom sam mnogo dobro prošla... zaradila sam čisto 150e. Organizacija je super 👍😘 Nemam ni jednu zamerku 💗",
+								"author": "@kristinavejic"
+							}
+						]
+					}
+				},
+				{
+					"type": "reviews",
+					"props": {
+						"reviews": [
+							{
+								"title": "Neću učestvovati kad ne budem imala više šta da prodam...",
+								"review": "Pa ja ne znam koji komentar da ostavim. Ja od početka učestvujem na svakom HES-u čak i kad bi da preskočim meni ne date da odmorim 😂 Toliko smo bliski postali da mi prosto čudno kad se ne čujemo 😂 A prodavala sam sve osim nameštaja sa vama 😂 Sve pohvale stvarno, korektni, vredni, pouzdani, na HES-u svakom sam zaradila, stvarno sve preporuke za one koji bi želeli da učestvuju a do sada nisu. 🍀💪👌 Ja neću učestvovati onda kad ne budem imala šta više da prodam 😂 Puno poljubaca za glavnu i odgovornu osobu HES-a 😘🌺💗",
+								"author": "Iva L, Beograd"
+							},
+							{
+								"title": "Sjajna stvar i za prodavce i za kupce...",
+								"review": "Zdravo, htela bih da podelim iskustvo sa HES-om, naime prvi put sam se prijavila za HES i nisam prodala NIŠTA, ipak nisam želela da odustanem i nisam želelea nazad svoju kotizaciju već da pokušam ponovo. Vrlo malo sam korigovala ponudu i cene i već na sledećem HES-u zarada je bila više od očekivane. Od tada sam veran klijent na HES-u uglavnom kao prodavac ali sve češće i kao kupac. Želim da ohrabrim one koji možda nisu zadovoljni svojim učešćem da pokušaju još neki put, jer je zaista sjajna stvar i za kupce i za prodavce 😊💚",
+								"author": "@second.hand.lux.bg"
+							}
+						]
+					}
+				},
+				{
 					"type": "avatar-text",
 					"props": {
 						"image": {
 							"src": "/images/avatar-thinking.png"
 						},
 						"text": "<p>Na svakom dosadašnjem HES-u prodavao se izuzetno veliki broj artikla, pa su prodavci morali da odvoje najmanje satkako bi svaki paket poslali na drugu adresu za svakog kupca. A kupci plaćali za svaki artikal posebnu poštarinu…</p><p><b>Veliki broj paketa i poštarina pripisali smo najvećoj mani HES-a. I sada je ispravljamo…</b></p>"
+					}
+				},
+				{
+					"type": "counter"
+				},
+				{
+					"type": "rich-text",
+					"props": {
+						"style": {
+							"paddingTop": "80px",
+							"marginBottom": "150px"
+						}
+					},
+					"children": "<p style=\"text-align:center\"><strong>Došao je kraj rizicima od duple poštarine ili kupovine „mačke u džaku“!<br>Od sada, naš tim će, pre nego što platite artikal koji ste poručili, izvršiti proveru istog, tj. utvrditi da li kvalitet odgovara ugovorenom!</strong></p>"
+				}
+			]
+		},
+		{
+			"link": "/iskustva-korisnika",
+			"title": "Iskustva Korisnika",
+			"meta": [
+				{
+					"name": "description",
+					"content": "Mesto gde se najbrže prodaje i najjeftinije kupuje!"
+				}
+			],
+			"modules": [
+				{
+					"type": "breadcrumb-title",
+					"props": {
+						"title": "Iskustva korisnika",
+						"links": [
+							{
+								"title": "Naslovna",
+								"href": "/"
+							},
+							{
+								"title": "Iskustva korisnika"
+							}
+						]
+					}
+				},
+				{
+					"type": "reviews",
+					"props": {
+						"reviews": [
+							{
+								"review": "Sve pohvale, učestvovala sam 3 puta, svaki put bila prezadovoljna a vi ažurni i posvećeni maksimalno 🍀",
+								"author": "@lopi83"
+							}
+						]
+					}
+				},
+				{
+					"type": "reviews",
+					"props": {
+						"reviews": [
+							{
+								"review": "Vaša posvećenost poslu, a pre svega profilu iza kojeg stojite je dovela da moje pozitivno online iskustvo sa vama nadomesti sve negativno od kada se bavim prodajom i online kontaktom sa ljudima. Vi ste toliko divni i ljubazni, i toliko želite da pomognete,a to se retko sreće. Samo tako nastavite, jer je to jedini put ka uspehu i postizanju ciljeva. 💝 💝",
+								"author": "@kikosrbija2"
+							}
+						]
+					}
+				},
+				{
+					"type": "reviews",
+					"props": {
+						"reviews": [
+							{
+								"review": "Sa Jelenom sam počela da sarađujem kada još uvek HES nije postojao, odnosno kada je profil bio relativno nov. Prvo mi se izuzetno dopala ideja, pa ona, pa njen pristup, posvećenost i profesionalnost. Broj pratilaca i sav napredak, nisu je promenili nimalo. 🙂 A kada sam još saznala i da je mama, i da je vrlo skoro dobila još jedno dete, i da uspeva tako uspešno da žonglira između svih tih uloga, zaista sam se oduševila. Učestvovala više puta, prodala dosta stvari putem profila, i nikada, ali NIKADA, nisam imala nijedan nesporazum ili loše iskustvo u saradnji. Zaista svaka čast i samo NAPRED! 💗 🍀 💪",
+								"author": "@ivonalekan"
+							}
+						]
+					}
+				},
+				{
+					"type": "reviews",
+					"props": {
+						"reviews": [
+							{
+								"review": "Učestvujem od prodaje na profilu kod vas, prvi dečiji HES, ženski HES, omiljen profil 💗 💗",
+								"author": "@marinasus_"
+							}
+						]
+					}
+				},
+				{
+					"type": "reviews",
+					"props": {
+						"reviews": [
+							{
+								"review": "Fantastična saradnja, sve po dogovoru, zadovoljna prodajom i dečije ženske garderobe 😻",
+								"author": "@minnika_"
+							}
+						]
+					}
+				},
+				{
+					"type": "reviews",
+					"props": {
+						"reviews": [
+							{
+								"review": "Kao kupac sam prezadovoljna 😊 kupovala sam u svakom dečijem HES-u 😘 jedva čekam sledeći 😊",
+								"author": "@larina_mamaa"
+							}
+						]
+					}
+				},
+				{
+					"type": "reviews",
+					"props": {
+						"reviews": [
+							{
+								"review": "Pa učestvovala sam 4 puta čini mi se, jako sam zadovoljna organizacijom i ažurnosti čak i posle ponoći, s obzirom da imaš dvoje male dece 💗. Svaka čast i samo tako nastavi. 😘 🌼",
+								"author": "@babicyoo"
+							}
+						]
+					}
+				},
+				{
+					"type": "reviews",
+					"props": {
+						"reviews": [
+							{
+								"review": "Pa ja ne znam koji komentar da ostavim. Ja od početka učestvujem na svakom HES-u čak i kad bi da preskočim meni ne date da odmorim 😂😂😂😂 Toliko smo bliski postali da mi prosto čudno kad se ne čujemo 😂😂😂 A prodavala sam sve osim nameštaja sa vama 😂😂😂 Sve pohvale stvarno, korektni, vredni, pouzdani, na HES-u svakom sam zaradila, stvarno sve preporuke za one koji bi želeli da učestvuju a do sada nisu. 🍀💪👌 Ja neću učestvovati onda kad ne budem imala šta više da prodam 😂😂😂😂😂😂😂😂 Puno poljubaca za glavnu i odgovornu osobu HES-a 😘🌺💗",
+								"author": "Iva L, Beograd"
+							}
+						]
+					}
+				},
+				{
+					"type": "reviews",
+					"props": {
+						"reviews": [
+							{
+								"review": "Vi ste za mene kao unicorn 🦄💜 na ovom instagramu, posebni i jedinstveni, a pre svega inovativni zato sam vas i izabrala i uvek ću. Sve pohvale, učestvovala sam više puta i jako sam zadovoljna saradnjom. 😊",
+								"author": "@sovaleksa"
+							}
+						]
+					}
+				},
+				{
+					"type": "reviews",
+					"props": {
+						"reviews": [
+							{
+								"review": "Učestvovala kao prodavac 3x. 2x dečiji HES i jednom ženski. Prezadovoljna sam, sa dečijom sam mnogo dobro prošla... zaradila sam čisto 150e. Organizacija je super 👍😘 Nemam ni jednu zamerku 💗",
+								"author": "@kristinavejic"
+							}
+						]
+					}
+				},
+				{
+					"type": "reviews",
+					"props": {
+						"reviews": [
+							{
+								"review": "Zdravo, htela bih da podelim iskustvo sa HES-om, naime prvi put sam se prijavila za HES i nisam prodala NIŠTA, ipak nisam želela da odustanem i nisam želelea nazad svoju kotizaciju već da pokušam ponovo. Vrlo malo sam korigovala ponudu i cene i već na sledećem HES-u zarada je bila više od očekivane. Od tada sam veran klijent na HES-u uglavnom kao prodavac ali sve češće i kao kupac. Želim da ohrabrim one koji možda nisu zadovoljni svojim učešćem da pokušaju još neki put, jer je zaista sjajna stvar i za kupce i za prodavce 😊💚",
+								"author": "@second.hand.lux.bg"
+							}
+						]
+					}
+				},
+				{
+					"type": "reviews",
+					"props": {
+						"style": {
+							"marginBottom": "150px"
+						},
+						"reviews": [
+							{
+								"review": "Učestvovala sam 5 ili 6 puta. Sve pohvale za trud i energiju koju ulažete u sve ovo. Svaka vam čast kako izlazite na kraj sa ženama. Ja bih već odavno odustala. Ne pišem ovo zbog besplatne kotizacije, zaista je tako, izlazite svima u susret i kupcima i prodavcima. Srećno 💗",
+								"author": "@babicyoo"
+							}
+						]
 					}
 				}
 			]
@@ -482,6 +686,66 @@
 							},
 							{
 								"title": "Akcija"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"link": "/kategorija-proizvoda/zenski-hes",
+			"title": "Ženski Hes",
+			"meta": [
+				{
+					"name": "description",
+					"content": "Ženski Hes"
+				}
+			],
+			"modules": [
+				{
+					"type": "breadcrumb-title",
+					"props": {
+						"style": {
+							"marginBottom": "150px"
+						},
+						"title": "Ženski Hes",
+						"links": [
+							{
+								"title": "Naslovna",
+								"href": "/"
+							},
+							{
+								"title": "Ženski Hes"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"link": "/kategorija-proizvoda/deciji-hes",
+			"title": "Dečiji Hes",
+			"meta": [
+				{
+					"name": "description",
+					"content": "Dečiji Hes"
+				}
+			],
+			"modules": [
+				{
+					"type": "breadcrumb-title",
+					"props": {
+						"style": {
+							"marginBottom": "150px"
+						},
+						"title": "Dečiji Hes",
+						"links": [
+							{
+								"title": "Naslovna",
+								"href": "/"
+							},
+							{
+								"title": "Dečiji Hes"
 							}
 						]
 					}

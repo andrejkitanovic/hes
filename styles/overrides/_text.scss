@@ -3,6 +3,7 @@
 // }
 
 h1 {
+	color: #000;
 	font-size: 40px;
 }
 
@@ -29,6 +30,12 @@ ul {
 a {
 	color: #a33188;
 	cursor: pointer;
+
+	transition: color 0.2s ease('fluid');
+
+	&:hover {
+		color: #e23c8e;
+	}
 }
 
 @mixin text-editor {
