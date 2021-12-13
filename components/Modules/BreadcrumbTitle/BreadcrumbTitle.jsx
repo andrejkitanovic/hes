@@ -4,7 +4,7 @@ import { ArrowRightSVG } from '../../Globals/SVGS/SVGS';
 
 export default function BreadcrumbTitle({ style, title, links }) {
 	return (
-		<div className="breadcrumb-title" style={{...style}}>
+		<div className="breadcrumb-title" style={{ ...style }}>
 			<div className="container">
 				<div className="row">
 					<div className="col-12">

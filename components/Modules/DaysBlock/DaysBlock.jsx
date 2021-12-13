@@ -2,7 +2,7 @@ import parse from 'html-react-parser';
 
 export default function DaysBlock({ style, title, days, description }) {
 	return (
-		<div className="days-block" style={{...style}}>
+		<div className="days-block" style={{ ...style }}>
 			<div className="container">
 				<div className="row">
 					<div className="col-12">

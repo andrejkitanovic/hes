@@ -1,6 +1,6 @@
-export default function Counter({style}) {
+export default function Counter({ style }) {
 	return (
-		<div className="counter" style={{...style}}>
+		<div className="counter" style={{ ...style }}>
 			<div className="container">
 				<div className="counter__container">
 					<div className="row">

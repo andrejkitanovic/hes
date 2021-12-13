@@ -3,7 +3,7 @@ import parse from 'html-react-parser';
 
 export default function AvatarText({ style, reverse, image, text }) {
 	return (
-		<div className="avatar-text" style={{...style}}>
+		<div className="avatar-text" style={{ ...style }}>
 			<div className="container">
 				<div className={`row align-items-center ${reverse ? 'flex-row-reverse' : ''}`}>
 					<div className="col-5">
