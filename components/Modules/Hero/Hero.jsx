@@ -1,8 +1,8 @@
 import Image from 'next/image';
 
-export default function Hero({ header, description, button, image }) {
+export default function Hero({ style,header, description, button, image }) {
 	return (
-		<section className="hero">
+		<section className="hero" style={{...style}}>
 			<div className="container">
 				<div className="row">
 					<div className="col-8">

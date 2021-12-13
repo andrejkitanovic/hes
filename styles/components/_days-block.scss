@@ -1,0 +1,47 @@
+@import '../utils';
+
+.days-block {
+	$el: &;
+	background-color: #f7f7f7;
+	margin:40px 0;
+	padding: 80px 0;
+
+	&__title {
+		text-align: center;
+		font-size: 28px;
+		font-weight: bold;
+		margin-bottom: 70px;
+	}
+
+	&__container {
+		background-color: #fff;
+		max-width: 900px;
+		margin: 0 auto;
+		padding: 65px 40px;
+	}
+
+	&__single {
+		margin-bottom: 45px;
+
+		&:last-of-type #{$el}__single-text {
+			padding-bottom: 0;
+			border-bottom: none;
+		}
+	}
+
+	&__single-day {
+		font-size: 20px;
+		color: #a33188;
+		font-weight: bold;
+	}
+
+	&__single-text {
+		padding-bottom: 45px;
+		border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+	}
+
+	&__description {
+		padding-top: 40px;
+		@include text-editor;
+	}
+}

@@ -1,0 +1,67 @@
+@import '../utils';
+
+.pricelist {
+	$el: &;
+	background-color: #f7f7f7;
+	margin: 40px 0;
+	padding: 80px 0;
+	text-align: center;
+
+	&__label {
+		font-size: 14px;
+		text-transform: uppercase;
+	}
+
+	&__title {
+		font-size: 28px;
+		font-weight: bold;
+		margin-bottom: 40px;
+	}
+
+	&__single {
+		background-color: #fff;
+		padding: 60px 30px;
+		border-radius: 10px;
+		box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.2);
+
+		&.active {
+			background-color: #171940;
+			color: #fff;
+
+			#{$el}__single-price {
+				border-bottom: 1px solid #ffffff33;
+
+				&:last-child {
+					border-bottom: none;
+				}
+			}
+		}
+	}
+
+	&__single-title {
+		font-size: 20px;
+		margin-bottom: 30px;
+		font-weight: 800;
+	}
+
+	&__single-price {
+		font-size: 14px;
+		padding: 10px 0;
+		border-bottom: 1px solid #ededed;
+
+		&:last-child {
+			border-bottom: none;
+		}
+	}
+
+	&__single-description {
+		font-size: 14px;
+		text-align: left;
+		font-weight: 500;
+		margin-top: 40px;
+	}
+
+	&__description {
+		margin-top: 60px;
+	}
+}

@@ -1,8 +1,8 @@
 import parse from 'html-react-parser';
 
-export default function BoxList({ title, list, description }) {
+export default function BoxList({ style, title, list, description }) {
 	return (
-		<div className="box-list">
+		<div className="box-list" style={{...style}}>
 			<div className="container">
 				<div className="box-list__box">
 					<div className="row">

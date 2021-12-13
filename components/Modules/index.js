@@ -3,9 +3,11 @@ import IconCards from './IconCards/IconCards';
 import IconRow from './IconRow/IconRow';
 import RichText from './RichText/RichText';
 import AvatarText from './AvatarText/AvatarText';
+import DaysBlock from './DaysBlock/DaysBlock';
 import BreadcrumbTitle from './BreadcrumbTitle/BreadcrumbTitle';
 import Counter from './Counter/Counter';
 import BoxList from './BoxList/BoxList';
+import Pricelist from './Pricelist/Pricelist';
 
 const mapModules = ({ key, children, props }) => {
 	return {
@@ -18,9 +20,11 @@ const mapModules = ({ key, children, props }) => {
 			</RichText>
 		),
 		'avatar-text': <AvatarText key={key} {...props} />,
+		'days-block': <DaysBlock key={key} {...props} />,
 		'breadcrumb-title': <BreadcrumbTitle key={key} {...props} />,
 		counter: <Counter key={key} {...props} />,
 		'box-list': <BoxList key={key} {...props} />,
+		pricelist: <Pricelist key={key} {...props} />,
 	};
 };
 export { mapModules };

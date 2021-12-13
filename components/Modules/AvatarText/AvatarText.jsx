@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import parse from 'html-react-parser';
 
-export default function AvatarText({ reverse, image, text }) {
+export default function AvatarText({ style, reverse, image, text }) {
 	return (
-		<div className="avatar-text">
+		<div className="avatar-text" style={{...style}}>
 			<div className="container">
 				<div className={`row align-items-center ${reverse ? 'flex-row-reverse' : ''}`}>
 					<div className="col-5">

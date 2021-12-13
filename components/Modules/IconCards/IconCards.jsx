@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function IconCards({ cards }) {
+export default function IconCards({ style,cards }) {
 	return (
-		<div className="icon-cards">
+		<div className="icon-cards" style={{...style}}>
 			<div className="container">
 				<div className="row">
 					{cards.map((card, index) => (
