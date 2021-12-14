@@ -17,7 +17,11 @@
 					},
 					"props": {
 						"header": "Stranica nije pronadjena",
-						"description": "Izvinite na neprijatnosti!"
+						"description": "Izvinjavamo se na neprijatnosti!",
+						"button": {
+							"text": "Nazad na početnu",
+							"href": "/"
+						}
 					}
 				}
 			]
@@ -37,12 +41,19 @@
 					"props": {
 						"header": "PRODAJ. KUPI. PONOVI.",
 						"description": "Mesto gde se najbrže prodaje i najjeftinije kupuje!",
-						"image": "/images/avatar.png"
+						"image": "/images/avatar.png",
+						"button": {
+							"text": "PRIDRUŽI SE I TI!",
+							"href": "/registracija"
+						}
 					}
 				},
 				{
 					"type": "icon-cards",
 					"props": {
+						"style": {
+							"marginTop": "-50px"
+						},
 						"cards": [
 							{
 								"icon": "/svgs/info-icon.svg",
@@ -76,7 +87,40 @@
 				},
 				{
 					"type": "counter",
-					"props": {}
+					"props": {
+						"list": [
+							{
+								"icon": {
+									"src": "/svgs/calendar.svg",
+									"width": 40,
+									"height": 35,
+									"alt": "Kalendar"
+								},
+								"number": 7,
+								"text": "Meseci Rada"
+							},
+							{
+								"icon": {
+									"src": "/svgs/tshirt.svg",
+									"width": 40,
+									"height": 35,
+									"alt": "Artikl"
+								},
+								"number": 3000,
+								"text": "Prodatih Artikla"
+							},
+							{
+								"icon": {
+									"src": "/svgs/users.svg",
+									"width": 40,
+									"height": 35,
+									"alt": "Korisnik"
+								},
+								"number": 700,
+								"text": "Saradnika u Prodaji"
+							}
+						]
+					}
 				},
 				{
 					"type": "avatar-text",
@@ -138,7 +182,6 @@
 					"props": {
 						"style": {
 							"paddingTop": "80px"
-						
 						}
 					},
 					"children": "<p style=\"text-align:center\"><strong>Došao je kraj rizicima od duple poštarine ili kupovine „mačke u džaku“!<br>Od sada, naš tim će, pre nego što platite artikal koji ste poručili, izvršiti proveru istog, tj. utvrditi da li kvalitet odgovara ugovorenom!</strong></p>"
@@ -146,7 +189,7 @@
 				{
 					"type": "image-block",
 					"props": {
-						"style":{
+						"style": {
 							"marginTop": "-20px",
 							"marginBottom": "150px"
 						},

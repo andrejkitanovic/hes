@@ -1,8 +1,7 @@
 @import '../utils';
 
 .counter {
-	height: 200px;
-	padding: 25px 0;
+	padding: 35px 0;
 	background-image: linear-gradient(
 		to right bottom,
 		#a33188,
@@ -21,5 +20,21 @@
 
 	&__container {
 		max-width: 900px;
+		margin: 0 auto;
+	}
+
+	&__item {
+		text-align: center;
+		color: #fff;
+	}
+
+	&__item-number{
+		font-size: 45px;
+		font-weight: 800;
+	}
+
+	&__item-text{
+		font-size: 18px;
+		font-weight: 500;
 	}
 }

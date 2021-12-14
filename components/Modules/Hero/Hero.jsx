@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Hero({ style, header, description, button, image }) {
 	return (
@@ -10,7 +11,11 @@ export default function Hero({ style, header, description, button, image }) {
 							<h1 className="hero__header">{header}</h1>
 							<div className="hero__description">{description}</div>
 							<div className="hero__button-wrapper">
-								<div className="hero__button button">PRIDRUŽI SE I TI!</div>
+								{button && (
+									<Link href={button.href}>
+										<div className="hero__button button">{button.text}</div>
+									</Link>
+								)}
 							</div>
 						</div>
 					</div>
