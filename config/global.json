@@ -41,7 +41,42 @@
 			{
 				"type": "dropdown-button",
 				"href": "#",
-				"title": "Ponuda"
+				"title": "Ponuda",
+				"dropdown": [
+					{
+						"title": "Nedeljna ponuda",
+						"href": "#",
+						"dropdown": [
+							{
+								"title": "Ženski Hes",
+								"href": "/kategorija-proizvoda/zenski-hes"
+							},
+							{
+								"title": "Dečiji Hes",
+								"href": "/kategorija-proizvoda/deciji-hes"
+							}
+						]
+					},
+					{
+						"title": "Mesečna ponuda",
+						"href": "#",
+						"dropdown": [
+							{
+								"title": "Ženski artikli",
+								"href": "/kategorija-proizvoda/mesecna-ponuda-zenski-artikli"
+							},
+							{
+								"title": "Dečija oprema",
+								"href": "/kategorija-proizvoda/mesecna-ponuda-zenski-artikli"
+							},
+							{
+								"active": true,
+								"title": "AKCIJA",
+								"href": "/akcija"
+							}
+						]
+					}
+				]
 			},
 			{
 				"type": "link",

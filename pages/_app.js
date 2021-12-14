@@ -11,6 +11,8 @@ import { useStore } from '../store';
 import global from '../config/global.json';
 import pages from '../config/pages.json';
 
+const LANGUAGE = 'sr';
+
 function getGlobalConfig() {
 	const globalConfig = {
 		head: {
@@ -42,9 +44,9 @@ function getPageConfig(link) {
 		modules: [],
 	};
 
-	let currentPage = pages['sr'].find((page) => page.link === link);
+	let currentPage = pages[LANGUAGE].find((page) => page.link === link);
 
-	if (!currentPage) currentPage = pages['sr'].find((page) => page.link === '/_error');
+	if (!currentPage) currentPage = pages[LANGUAGE].find((page) => page.link === '/_error');
 
 	pageConfig.title = currentPage.title;
 
@@ -71,24 +73,23 @@ export default function MyApp({ Component, pageProps, router }) {
 		modules: pageConfig?.modules,
 	};
 
-	const store = useStore(pageProps.initialReduxState)
+	const store = useStore(pageProps.initialReduxState);
 
 	return (
 		<Provider store={store}>
+			<Head>
+				<title>
+					{globalConfig?.head?.['pre-title']}
+					{pageConfig.title}
+					{globalConfig?.head?.['post-title']}
+				</title>
+				{globalConfig?.head?.meta}
+				{pageConfig?.meta}
+				{globalConfig?.head?.links}
+			</Head>
+
 			<div>
-				<Head>
-					<title>
-						{globalConfig?.head?.['pre-title']}
-						{pageConfig.title}
-						{globalConfig?.head?.['post-title']}
-					</title>
-					{globalConfig?.head?.meta}
-					{pageConfig?.meta}
-					{globalConfig?.head?.links}
-				</Head>
-
 				<Header {...globalConfig?.header} active={router.asPath} />
-
 				<main className="main">
 					<Cart {...globalConfig?.cart} />
 					<AnimatePresence exitBeforeEnter>

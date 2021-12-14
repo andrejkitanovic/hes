@@ -37,19 +37,50 @@ export default function Header({ banner, logo, navigation, active }) {
 										);
 									} else if (navItem.type === 'dropdown-button') {
 										return (
-											<a key={`navitem_${index}`} href={navItem.href} className="header__button">
-												{navItem.title}
-											</a>
+											<div className="header__button-wrapper" key={`navitem_${index}`}>
+												<a href={navItem.href} className="header__button">
+													{navItem.title}
+												</a>
+
+												{navItem.dropdown && (
+													<div className="header__button-dropdown">
+														{navItem.dropdown?.map((single, index) => {
+															return (
+																<Link href={single.href} key={'navitem_dropdown-' + index} passHref>
+																	<div className="header__dropdown-holder d-flex align-items-center justify-content-center">
+																		{single.title}
+
+																		{single.dropdown && (
+																			<div className="header__button-indent-dropdown">
+																				{single.dropdown?.map((indent, index) => {
+																					return (
+																						<Link href={indent.href} key={'navitem_indent-' + index} passHref>
+																							<div
+																								className={`header__dropdown-link${
+																									indent.active ? ' active' : ''
+																								} d-flex align-items-center justify-content-center`}
+																							>
+																								{indent.title}
+																							</div>
+																						</Link>
+																					);
+																				})}
+																			</div>
+																		)}
+																	</div>
+																</Link>
+															);
+														})}
+													</div>
+												)}
+											</div>
 										);
 									}
 								})}
 							</div>
 						</div>
 						<div className="col-1">
-							<div
-								className="header__cart d-flex align-items-center justify-content-end"
-								
-							>
+							<div className="header__cart d-flex align-items-center justify-content-end">
 								<CartSVG width={26} height={26} onClick={() => dispatch(openCart())} />
 								<div className="header__cart-count d-flex align-items-center justify-content-center">0</div>
 							</div>
