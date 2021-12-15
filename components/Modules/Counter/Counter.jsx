@@ -7,7 +7,7 @@ export default function Counter({ style, list }) {
 				<div className="counter__container">
 					<div className="row">
 						{list?.map((item, index) => (
-							<div className="col-4" key={'counter-item_' + index}>
+							<div className="col-12 col-md-4" key={'counter-item_' + index}>
 								<div className="counter__item">
 									<div className="counter__item-icon">
 										{item.icon && <Image src={item.icon.src} width={item.icon.width} height={item.icon.height} alt={item.icon.alt} />}

@@ -12,7 +12,7 @@ export default function Pricelist({ style, label, title, prices, description }) 
 				</div>
 				<div className="row">
 					{prices?.map((single, index) => (
-						<div className="col-4" key={'pricelist-single_' + index}>
+						<div className="col-12 col-lg-4" key={'pricelist-single_' + index}>
 							<div className={`pricelist__single${single.active ? ' active' : ''}`}>
 								<div className="pricelist__single-title">{single.title}</div>
 								<div className="pricelist__single-prices">

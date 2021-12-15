@@ -6,7 +6,7 @@ export default function IconRow({ style, cards }) {
 			<div className="container">
 				<div className="row justify-content-center">
 					{cards.map((card, index) => (
-						<div key={`icon-row__row-${index}`} className="col-4">
+						<div key={`icon-row__row-${index}`} className="col-12 col-lg-4">
 							<div className="icon-row__row">
 								<div className="icon-row__row-icon">
 									{card.icon && <Image src={card.icon} width={50} height={50} alt="Card Icon" />}

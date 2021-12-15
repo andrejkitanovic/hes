@@ -15,10 +15,10 @@ export default function DaysBlock({ style, title, days, description }) {
 						{days?.map((item, index) => (
 							<div className="days-block__single" key={'days-block-day_' + index}>
 								<div className="row">
-									<div className="col-5">
+									<div className="col-12 col-md-5">
 										<div className="days-block__single-day">{item.day}</div>
 									</div>
-									<div className="col-7">
+									<div className="col-12 col-md-7">
 										<div className="days-block__single-text">{parse(item.text)}</div>
 									</div>
 								</div>

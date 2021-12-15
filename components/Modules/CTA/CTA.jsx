@@ -16,10 +16,10 @@ export default function CTA({ style, type, text, button }) {
 		<div className={`cta${type === 'column' ? ' column' : ''}`} style={{ ...style }}>
 			<div className="container">
 				<div className={`row align-items-center`}>
-					<div className={`col-${cols.first}`}>
+					<div className={`col-12 col-md-${cols.first}`}>
 						<div className="cta__text">{text && parse(text)}</div>
 					</div>
-					<div className={`col-${cols.second}`}>
+					<div className={`col-12 col-md-${cols.second}`}>
 						{button && (
 							<Link href={button.href} passHref>
 								<div className="cta__button button" style={{ ...button.style }}>

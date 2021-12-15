@@ -7,7 +7,7 @@ export default function IconCards({ style, cards }) {
 			<div className="container">
 				<div className="row">
 					{cards.map((card, index) => (
-						<div key={`icon-cards__card-${index} `} className="col-4">
+						<div key={`icon-cards__card-${index} `} className="col-12 col-lg-4">
 							<div className="icon-cards__card d-flex flex-column justify-content-between">
 								<div className="icon-cards__card-icon">
 									{card.icon && <Image src={card.icon} width={80} height={80} alt="Card Icon" />}

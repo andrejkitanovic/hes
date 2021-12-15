@@ -6,7 +6,7 @@ export default function Hero({ style, header, description, button, image }) {
 		<section className="hero" style={{ ...style }}>
 			<div className="container">
 				<div className="row">
-					<div className="col-8">
+					<div className="col-12 col-lg-8">
 						<div className="hero__main d-flex flex-column justify-content-center">
 							<h1 className="hero__header">{header}</h1>
 							<div className="hero__description">{description}</div>
@@ -19,7 +19,7 @@ export default function Hero({ style, header, description, button, image }) {
 							</div>
 						</div>
 					</div>
-					<div className="col-4">
+					<div className="col-12 col-lg-4">
 						<div className="hero__image text-align-right">
 							{image && <Image src={image} width="325" height="619" alt="Big Avatar" />}
 						</div>

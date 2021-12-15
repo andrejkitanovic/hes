@@ -1,0 +1,60 @@
+.steps {
+	$el: &;
+	max-width: 900px;
+	margin: 40px auto;
+
+	&__step {
+		margin-bottom: 45px;
+
+		&:last-of-type #{$el}__step-number::after {
+			content: none;
+		}
+	}
+
+	&__step-number {
+		position: relative;
+		min-width: 64px;
+		height: 64px;
+		margin-right: 24px;
+		border-radius: 50%;
+		background-color: #fff;
+		color: #888;
+		border: 1px solid #e5e5e5;
+		font-size: 24px;
+		cursor: pointer;
+
+		&::after {
+			content: '';
+			position: absolute;
+			top: 100%;
+			left: 50%;
+			width: 2px;
+			height: 100%;
+			min-height: 140px;
+			background-color: #eee;
+		}
+
+		&.active {
+			color: #fff;
+			background-color: #e23c8e;
+
+			&::after {
+				background-color: #a33188;
+			}
+		}
+	}
+
+	&__step-title {
+		font-size: 16px;
+		font-weight: 700;
+		margin-bottom: 4px;
+	}
+
+	&__step-description {
+		font-size: 16px;
+	}
+
+	&__step-image {
+		text-align: center;
+	}
+}

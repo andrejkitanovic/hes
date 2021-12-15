@@ -166,6 +166,15 @@
 					}
 				},
 				{
+					"type":"button-block",
+					"props":{
+						"button":{
+							"text":"PROČITAJ I DRUGA ISKUSTVA",
+							"href":"/iskustva-korisnika"
+						}
+					}
+				},
+				{
 					"type": "avatar-text",
 					"props": {
 						"image": {
@@ -180,7 +189,7 @@
 						"text": "Kupi koliko artikla želiš, jednu poštarinu plaćaš!",
 						"type": "column",
 						"button": {
-							"href": "/",
+							"href": "/registracija",
 							"text": "PRIKLJUČI SE I TI!"
 						}
 					}
@@ -208,6 +217,53 @@
 					}
 				},
 				{
+					"type": "steps",
+					"props": {
+						"steps": [
+							{
+								"title": "Prodavac šalje HES-u prodat artikal",
+								"description": "Sredom prodavci šalju na našu adresu sve prodate artikle.",
+								"image": {
+									"src": "/svgs/send-parcel.svg",
+									"width": 150,
+									"height": 150,
+									"alt": ""
+								}
+							},
+							{
+								"title": "HES vrši proveru stanja",
+								"description": "Utvrđujemo da li je prodavac dao tačne informacije o proizvodu (po našoj legendi) i da li proizvod odgovara fotografijama na kolažu.",
+								"image": {
+									"src": "/svgs/approved.svg",
+									"width": 150,
+									"height": 150,
+									"alt": ""
+								}
+							},
+							{
+								"title": "Kupac uplaćuje novac prodavcu",
+								"description": "Nakon izvršene provere od strane HES-a, kupac vrši novčanu uplatu prodavcu.",
+								"image": {
+									"src": "/svgs/payment.svg",
+									"width": 150,
+									"height": 150,
+									"alt": ""
+								}
+							},
+							{
+								"title": "HES šalje paket kupcu",
+								"description": "Nakon evidentirane uplate, HES šalje paket kupcu bez otkupa.",
+								"image": {
+									"src": "/svgs/parcel-delivery.svg",
+									"width": 150,
+									"height": 150,
+									"alt": ""
+								}
+							}
+						]
+					}
+				},
+				{
 					"type": "cta",
 					"props": {
 						"style": {
@@ -220,7 +276,7 @@
 								"background": "#fff",
 								"color": "#000"
 							},
-							"href": "/",
+							"href": "/registracija",
 							"text": "Kontaktirajte Nas"
 						}
 					}
@@ -867,6 +923,66 @@
 							},
 							{
 								"title": "Dečiji Hes"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"link": "/kategorija-proizvoda/mesecna-ponuda-zenski-artikli",
+			"title": "Mesečna ponuda - ženski artikli",
+			"meta": [
+				{
+					"name": "description",
+					"content": "Mesečna ponuda - ženski artikli"
+				}
+			],
+			"modules": [
+				{
+					"type": "breadcrumb-title",
+					"props": {
+						"style": {
+							"marginBottom": "150px"
+						},
+						"title": "Mesečna ponuda - ženski artikli",
+						"links": [
+							{
+								"title": "Naslovna",
+								"href": "/"
+							},
+							{
+								"title": "Mesečna ponuda - ženski artikli"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"link": "/kategorija-proizvoda/mesecna-ponuda-decija-oprema",
+			"title": "Mesečna ponuda - dečija oprema",
+			"meta": [
+				{
+					"name": "description",
+					"content": "Mesečna ponuda - dečija oprema"
+				}
+			],
+			"modules": [
+				{
+					"type": "breadcrumb-title",
+					"props": {
+						"style": {
+							"marginBottom": "150px"
+						},
+						"title": "Mesečna ponuda - dečija oprema",
+						"links": [
+							{
+								"title": "Naslovna",
+								"href": "/"
+							},
+							{
+								"title": "Mesečna ponuda - dečija oprema"
 							}
 						]
 					}

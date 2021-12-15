@@ -7,7 +7,7 @@ export default function Footer({ socials, copyright }) {
 			<div className="container">
 				<div className="footer__top">
 					<div className="row">
-						<div className="col-6">
+						<div className="col-12 col-md-6">
 							<div className="footer__newsletter d-flex align-items-center">
 								<Image alt="Newsletter" src="/svgs/envelope.svg" width={45} height={45} />
 								<div className="footer__newsletter-info">
@@ -16,7 +16,7 @@ export default function Footer({ socials, copyright }) {
 								</div>
 							</div>
 						</div>
-						<div className="col-6">
+						<div className="col-12 col-md-6">
 							<form className="footer__subscribe d-flex align-items-center justify-content-end">
 								<input
 									className="footer__subscribe-input"
@@ -34,7 +34,7 @@ export default function Footer({ socials, copyright }) {
 				<div className="footer__main">
 					<div className="row">
 						{socials?.map((social, index) => (
-							<div className="col-4" key={'social_' + index}>
+							<div className="col-12 col-md-4" key={'social_' + index}>
 								<div className="footer__social">
 									<div className="footer__social-icon">
 										{social.icon && (

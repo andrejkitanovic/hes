@@ -6,12 +6,12 @@ export default function AvatarText({ style, reverse, image, text }) {
 		<div className="avatar-text" style={{ ...style }}>
 			<div className="container">
 				<div className={`row align-items-center ${reverse ? 'flex-row-reverse' : ''}`}>
-					<div className="col-5">
+					<div className="col-12 col-lg-5">
 						<div className="avatar-text__image">
 							{image && <Image src={image.src} width={350} height={350} alt="Avatar Gesticulation" />}
 						</div>
 					</div>
-					<div className="col-7">
+					<div className="col-12 col-lg-7">
 						<div className="avatar-text__text">{text && parse(text)}</div>
 					</div>
 				</div>

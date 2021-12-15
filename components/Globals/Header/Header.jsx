@@ -16,7 +16,7 @@ export default function Header({ banner, logo, navigation, active }) {
 					</div>
 				)}
 			</div>
-			<div className="header__main">
+			<div className="header__main d-none d-lg-block">
 				<div className="container">
 					<div className="row">
 						<div className="col-1">

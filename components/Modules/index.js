@@ -11,11 +11,13 @@ import Pricelist from './Pricelist/Pricelist';
 import Reviews from './Reviews/Reviews';
 import ImageBlock from './ImageBlock/ImageBlock';
 import CTA from './CTA/CTA';
+import Steps from './Steps/Steps';
+import ButtonBlock from './ButtonBlock/ButtonBlock';
 
 const mapModules = ({ key, children, props }) => {
 	return {
 		hero: <Hero key={key} {...props} />,
-		'cta': <CTA key={key} {...props} />,
+		cta: <CTA key={key} {...props} />,
 		'icon-cards': <IconCards key={key} {...props} />,
 		'icon-row': <IconRow key={key} {...props} />,
 		'rich-text': (
@@ -30,7 +32,9 @@ const mapModules = ({ key, children, props }) => {
 		'box-list': <BoxList key={key} {...props} />,
 		pricelist: <Pricelist key={key} {...props} />,
 		reviews: <Reviews key={key} {...props} />,
+		steps: <Steps key={key} {...props} />,
 		'image-block': <ImageBlock key={key} {...props} />,
+		'button-block': <ButtonBlock key={key} {...props} />
 	};
 };
 export { mapModules };
