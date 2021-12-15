@@ -175,7 +175,15 @@
 					}
 				},
 				{
-					"type": "counter"
+					"type": "cta",
+					"props": {
+						"text": "Kupi koliko artikla želiš, jednu poštarinu plaćaš!",
+						"type": "column",
+						"button": {
+							"href": "/",
+							"text": "PRIKLJUČI SE I TI!"
+						}
+					}
 				},
 				{
 					"type": "rich-text",
@@ -190,8 +198,7 @@
 					"type": "image-block",
 					"props": {
 						"style": {
-							"marginTop": "-20px",
-							"marginBottom": "150px"
+							"marginTop": "-20px"
 						},
 						"video": {
 							"src": "/images/avatar-delivery.mp4",
@@ -199,6 +206,63 @@
 							"height": 530
 						}
 					}
+				},
+				{
+					"type": "cta",
+					"props": {
+						"style": {
+							"background": "#A33188"
+						},
+						"text": "Online <b>kupovina polovnog</b> nikada nije bila <b>bezbednija!</b>",
+						"type": "row",
+						"button": {
+							"style": {
+								"background": "#fff",
+								"color": "#000"
+							},
+							"href": "/",
+							"text": "Kontaktirajte Nas"
+						}
+					}
+				},
+				{
+					"type": "image-block",
+					"props": {
+						"style": {
+							"padding": "60px 0 50px"
+						},
+						"image": {
+							"src": "/images/avatar-in-cart.png",
+							"width": 300,
+							"height": 253
+						}
+					}
+				},
+				{
+					"type": "rich-text",
+					"children": "<p style=\"text-align:center;font-size:21px;\"><b>Ako Vam se ovaj koncept kupovine i prodaje dopada, ostaje da nam poklonite svoje poverenje koje ćemo zasigurno opravdati.</b></p>"
+				},
+				{
+					"type": "image-block",
+					"props": {
+						"style": {
+							"padding": "50px 0"
+						},
+						"image": {
+							"src": "/images/avatar-shopping.png",
+							"width": 150,
+							"height": 259
+						}
+					}
+				},
+				{
+					"type": "rich-text",
+					"props": {
+						"style": {
+							"paddingBottom": "200px"
+						}
+					},
+					"children": "<p style=\"text-align:center;\"><b>Pridružite se porodici naših zadovoljnih saradnika ujedinjenih u cilju rasprodaje artikla koji Vam više nisu potrebni, a mi ćemo opravdati Vaše poverenje. Na raspolaganju smo Vam 24/7 na našem Whats app broju za sva pitanja, savete, sugestije, nedoumice.</b></p><p style=\"text-align:center;\">Konstantno se trudimo da pružimo bolju uslugu i radimo na tome da HES postane najbolje mesto za prodaju i kupovinu, na kojem ćete uz minimalne rizike ostvariti svoje ciljeve kada je u pitanju prodaja/kupovina.</p>"
 				}
 			]
 		},

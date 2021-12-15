@@ -10,10 +10,12 @@ import BoxList from './BoxList/BoxList';
 import Pricelist from './Pricelist/Pricelist';
 import Reviews from './Reviews/Reviews';
 import ImageBlock from './ImageBlock/ImageBlock';
+import CTA from './CTA/CTA';
 
 const mapModules = ({ key, children, props }) => {
 	return {
 		hero: <Hero key={key} {...props} />,
+		'cta': <CTA key={key} {...props} />,
 		'icon-cards': <IconCards key={key} {...props} />,
 		'icon-row': <IconRow key={key} {...props} />,
 		'rich-text': (

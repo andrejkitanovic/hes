@@ -5,11 +5,7 @@ import { closeCart } from '../../../store/actions';
 export default function Cart({ overlayTransition, cartTransition }) {
 	const dispatch = useDispatch();
 	const { isOpen } = useSelector((state) => state.cart);
-
-	// if (!isOpen) {
-	// 	return null;
-	// }
-
+	
 	return (
 		<>
 			<AnimatePresence exitBeforeEnter>

@@ -12,7 +12,7 @@ export default function Hero({ style, header, description, button, image }) {
 							<div className="hero__description">{description}</div>
 							<div className="hero__button-wrapper">
 								{button && (
-									<Link href={button.href}>
+									<Link href={button.href} passHref>
 										<div className="hero__button button">{button.text}</div>
 									</Link>
 								)}
